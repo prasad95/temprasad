@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<!-- saved from url=(0110)https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&ActivityId=463595 -->
+<html ng-app="ActivityDetails" lang="en-us" id="ng-app" class="set-iframe-dimentions k-webkit k-webkit63 ng-scope" style="overflow: hidden;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <title>Activity Details</title>
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script language="javascript">
+        // IE9 fix
+        if (!window.console) {
+            var console = {
+                log: function () { },
+                warn: function () { },
+                error: function () { },
+                time: function () { },
+                timeEnd: function () { }
+            }
+        }
+        var ISMOBILE = false;
+        var L_SYS_CommonSettings_Info_SysFontScale = "1.0";
+;
+        var data = {
+            pillarKey: 'LM',
+            action: "UPDATE_PAGE_TITLE",
+            parameters: {
+                newTitle: "Activity Details"
+            }
+        };
+        var rawUrl = "/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595";
+        var helpData = {
+            pillarKey: 'LM',
+            action: "SET_PAGE_HELPCONTEXT",
+            parameters: {
+                url: rawUrl.replace(/&amp;/g, '&'),
+                nodeKey: null
+            }
+        };
+        try {
+            top.postMessage(JSON.stringify(data), "*");
+            top.postMessage(JSON.stringify(helpData), "*");
+        }
+        catch (err) {
+        }
+    </script>
+    <script type="text/javascript">
+var isFullScreenMode = "false";
+</script>
+
+    <script type="text/javascript">var _CSRFTOKEN = "$SumT75CNG+8kXud0CWBY93Ud+7yMen4e1hKwEiLNqd75sdfAXmP0Ws8B1If829QVLvpFkN8vzGPWsoS+MrMDOgu2UXrQSB7P90sXWV6BSCCISl1o66ALVY7RKI1DTqA46jYlA8Oy4X";</script>
+    <script type="text/javascript">
+var STRING_SITE_PREFIX = "/learning";
+var STRING_DATASTORE_PREFIX = "/DataStore/CAPGEMINI_PROD/Learning/";
+var STRING_DATASTORE_COMMON = "/DataStore/CAPGEMINI_PROD/Common/";
+var EXT_FOLDER_NAME = "extensions";
+var STRING_CDS_SITE_PREFIX = "/learning/app/authoring";
+var STRING_LANG_CODE = "en-us";
+var STRING_LANG_PATH = "app";
+var STRING_COMMON_IMAGE_PREFIX = "/learning/client/media/images/_common/";
+var STRING_IMAGE_PREFIX = "/learning/client/media/images/default_st900/";
+var STRING_EMPID = "695667";
+var STRING_VIEWEMPID = "null";
+var STRING_WEB_SITE_NAME = "SumTotal";
+var STRING_USERMODE = "0";
+var DIALOG_YES = "1";
+var DIALOG_NO = "2";
+var DIALOG_OK = "3";
+var DIALOG_CANCEL = "-1";
+var g_IsMVCOn = "true";
+var STRING_PROXYFORID = "";
+var _CSRFTOKEN = "$SumT75CNG+8kXud0CWBY93Ud+7yMen4e1hKwEiLNqd75sdfAXmP0Ws8B1If829QVLvpFkN8vzGPWsoS+MrMDOgu2UXrQSB7P90sXWV6BSCCISl1o66ALVY7RKI1DTqA46jYlA8Oy4X";
+var L_Info_CFRError = "Txn Generation Error: ";
+var STRING_DATE_CULTURE = "M/d/yyyy";
+var STRING_TIME_CULTURE = "h:mm a";
+var STRING_EMULATORUSERNAME = "";
+var CFR_ENABLED = "true";
+var L_Verify_DS_AUTHMETHODID = "-5";
+var L_Verify_DS_SAMLPORTALURL = "0";
+var L_Verify_DS_SAMLPORTALHEIGHT = "0";
+var L_Verify_DS_SAMLPORTALWIDTH = "0";
+var L_Verify_DS_GL_User_Profile = "0";
+var L_Verify_DS_GL_Learning_Activity = "0";
+var L_Verify_DS_GL_Roster = "0";
+var L_Verify_DS_GL_Transcript_ESign = "0";
+var L_Verify_DS_GL_OnlineTranscript_ESign = "0";
+var STRING_PORTAL_URL = "https://capgemini.sumtotal.host/core/";
+</script>
+
+    <link rel="stylesheet" type="text/css" href="./Activity Details3_files/vendor___14_Dec_2017_01_14.css" data-norem="">
+<link rel="stylesheet" type="text/css" href="./Activity Details3_files/foundation___14_Dec_2017_01_14.css" data-norem="">
+<link rel="stylesheet" type="text/css" href="./Activity Details3_files/kendo.bootstrap.min___14_Dec_2017_01_14.css" data-norem="">
+<link rel="stylesheet" type="text/css" href="./Activity Details3_files/kendo.common-bootstrap.min___14_Dec_2017_01_14.css" data-norem="">
+<link rel="stylesheet" type="text/css" href="./Activity Details3_files/jqModal___14_Dec_2017_01_14.css" data-norem="">
+<link rel="stylesheet" type="text/css" href="./Activity Details3_files/jquery.qtip.min___14_Dec_2017_01_14.css" data-norem="">
+<link rel="stylesheet" type="text/css" href="./Activity Details3_files/StarRatingControl___14_Dec_2017_01_14.css" data-norem="">
+<link rel="stylesheet" type="text/css" href="./Activity Details3_files/LMS_ActDetails___14_Dec_2017_01_14.css" data-norem="">
+<link rel="stylesheet" type="text/css" href="./Activity Details3_files/ELM_Common___14_Dec_2017_01_14.css" data-norem="">
+<link rel="stylesheet" type="text/css" href="./Activity Details3_files/bootstrap.sumttheme" data-norem="">
+<link rel="stylesheet" type="text/css" href="./Activity Details3_files/foundation.sumttheme" data-norem="">
+<link rel="stylesheet" type="text/css" href="./Activity Details3_files/lm.sumttheme" data-norem="">
+
+    <script type="text/javascript" src="./Activity Details3_files/rem___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/jquery.min___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/jquery.ui.min___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/kendo.all.min___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/jquery.qtip.min___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/JSON2___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/SumtAPIClient___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/KendoWrapper___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/SYS_browser___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/SYS_util___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/LMS_MVC_UTIL___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/SYS_ModalNS___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/bootstrap.min___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/vendor___14_Dec_2017_01_15.js.download"></script><style>.ngf-hide{display:none !important}</style><style></style>
+<script type="text/javascript" src="./Activity Details3_files/foundation___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/LMS_Training___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/SPI_Common___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/LMS_ActDetailsEx___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/ActivityDetails-ng-Module___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/ActivityDetails___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/LMS_ActSummary___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/sumt.ng.core___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/jqModal___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/jquery.rateit.min___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/StarRating___14_Dec_2017_01_15.js.download"></script>
+<script type="text/javascript" src="./Activity Details3_files/RegistrationServices-ng-Module___14_Dec_2017_01_15.js.download"></script>
+
+</head>
+<body class=" set-iframe-dimentions" style="overflow: hidden;">
+    <div class="leftPadding15">
+               <div style="display:none">
+    <ol class="breadcrumb">
+        <li><a title="Home" href="javascript:_UTL_Navigate(STRING_SITE_PREFIX + &#39;/app/management/LMS_LearnerHome.aspx?UserMode=&#39; + STRING_USERMODE, &#39;&#39;);">Home</a></li>
+        <li class="active" title="Learn - Activity Details">Learn - Activity Details</li>
+    </ol>
+</div>
+    </div>
+    <div class="container-fluid">
+        <link rel="stylesheet" type="text/css" href="./Activity Details3_files/SYS_base">
+
+
+
+<script language="JavaScript" src="./Activity Details3_files/L_LMS_Registration___14_Dec_2017_01_15.js.download"></script>
+<script language="JavaScript" src="./Activity Details3_files/L_LMS_Registration.en-us___19_Jan_2018_11_46.js.download"></script>
+
+
+<script type="text/javascript">
+    var L_ADM_ActivityProperties_Warning_NavigatingAwayFromPage = "You are navigating away from the staging editor. If you leave now, your changes will be lost. Do you want to continue?";
+var L_LMS_ActSummary_Info_SchedInfoRegion = "Schedule and Pricing";
+var L_LMS_ActDetails_Status_Registered = "Registered";
+var L_LMS_ActDetails_Status_InProgress = "In Progress";
+var L_LMS_ActDetails_Status_WaitListed = "Waiting list";
+var L_LMS_ActDetails_Status_Cancelled = "Canceled";
+var L_LMS_ActDetails_Status_PendingApproval = "Pending approval";
+var L_LMS_ActDetails_Status_Completed = "Attended";
+var L_LMS_ActDetails_Status_Replaced = "Replaced";
+var L_LMS_ActDetails_Status_NoShow = "No show";
+var L_LMS_ActDetails_Status_Waived = "Waived";
+var L_LMS_ActDetails_Info_AttemptStr = "%s %s %s %s %s %s %s %s";
+var L_LMS_ActDetails_Title_Score = "Score: ";
+var L_LMS_ActDetails_Info_Via = "(via %s)";
+var L_LMS_ActDetails_Info_Activity = "Activity";
+var L_LMS_ActDetails_Info_Attempt = "Attempt History";
+var L_LMS_ActDetails_Info_Passed = "Passed";
+var L_LMS_ActDetails_Info_Failed = "Failed";
+var L_LMS_ActDetails_Info_Completed = "Attended on %s";
+var L_LMS_ActDetails_Info_Started = "Started on %s";
+var L_LMS_ActDetails_Info_Waived = "Waived on %s";
+var L_LMS_ActDetails_ErrorInSingleClickChildRegistration_Msg = "Error in child registration";
+var L_LMS_ActDetails_Status_RegistrationInitiated = "Registration Initiated";
+var L_LMS_ActDetails_Info_Register = "Register";
+var L_LMS_ActDetails_ToolTip_Launch = "Start";
+var L_LMS_ActDetails_Link_Cancel = "Cancel registration";
+var L_TAX_Common_Task_AddToFavorites = "Add to Favorites";
+var L_LMS_ActDetails_Info_Cancelled = "Canceled on %s";
+var L_LMS_ActDetails_CompletionRuleText = "You need to complete %1 of the %2 activities below to complete this program.";
+var L_LMS_ActDetails_ToolTip_ProgressDetails = "Activity progress details";
+
+    var L_LMS_ActDetails_ActivityExpireMsgBeforePurchase = "Access expires %s days after purchase.";
+var L_LMS_ActDetails_ActivityExpireMsgAfterPurchase = "Your access to this content will expire on %s.";
+var L_LMS_ActDetails_ActivityExpireMsgAfterSubsExpire = "Your access to this content expired on %s.Please purchase it again to renew your subscription and regain access.";
+var L_LMS_ActDetails_ActivityExpireMsgSubsRenew = "";
+var L_LMS_ActDetails_ActivityExpireMsgPartOfBundle = "";
+var L_LMS_ActDetails_ToolTip_Diploma = "Diploma";
+var L_LMS_TrainRequired_Info_ForLearningActivity = "for learning activity";
+var L_LMS_ActDetails_External_Status_Submitted = "Submitted";
+var L_LMS_ActDetails_External_Status_NotSubmitted = "Not Submitted";
+
+    var activitiesList = {"ActivityDetails":[{"TrainingActivity":{"Id":463595,"RespObserverName":null,"RootActName":null,"Name":"Big Data","Code":"IN-Tech-BIDT","Description":"Course Agenda:\r\n·         How it started\r\n·         Demystify Big Data\r\n·         Big Data Use case\r\n\r\nTarget audience:\r\nFreshers, beginners, anyone who needs and overview of Big Data.\r\n\r\n\r\n\r\n\r\n","DescriptionHtml":null,"Notes":null,"ActivityLabel":{"Id":-3,"Name":"Web-based Learning","IconPath":null,"RequiredProperties":null,"ActivityTemplate":null},"IsActive":false,"ContentTypeInfo":null,"Community":{"CommunityPK":0,"CommunityName":null,"EnabledFeatures":0,"ActivityFk":0,"DocumentCount":0,"DiscussionCount":0,"BlogCount":0,"isDocumentEnabled":false,"isDiscussionEnabled":false,"isBlogEnabled":false,"IsCommunityEnabled":false,"IsDBEnabled":false,"IsDLEnabled":false,"IsBlEnabled":false,"CommunityId":0,"IsCommunityInProd":false,"IsSLLink":false,"IsCommEnabledInProd":false},"CreateYammerGroupFlag":false,"YammerGroupID":0,"Schedule":{"ActivityTimeZone":245,"StartDateUTC":null,"ShortStartDate":null,"ShortStartTime":null,"ShortEndDate":null,"ShortEndTime":null,"ShortRegistrationDeadLine":null,"ShortRegistrationDeadLineTime":null,"ShortRegistrationCancellationDate":null,"ShortRegistrationCancellationTime":null,"StartDateLongUserTZ":"","StartDateLongActTZ":"","StartDateUserTZ":"","StartTimeUserTZ":"","ShortStartTimeUserTZ":"","StartDateActTZ":"","StartTimeActTZ":"","StartTimeUserCommonTZ":null,"EndTimeUserCommonTZ":null,"StartDateTimeInUserTZ":"","StartDateTimeUserTZ":null,"StartDateTimeUserTZInUTC":null,"EndDateUTC":null,"EndDateLongUserTZ":"","EndDateLongActTZ":"","EndDateUserTZ":"","EndTimeUserTZ":"","ShortEndTimeUserTZ":"","EndDateActTZ":"","EndTimeActTZ":"","EndDateTimeInUserTZ":"","EndDateTimeUserTZ":null,"EndDateTimeUserTZInUTC":null,"EffectiveDateUTC":null,"EffectiveDateLongUserTZ":"","EffectiveDateLongActTZ":"","EffectiveDatetUserTZ":"","EffectiveTimeUserTZ":"","EffectiveDateActTZ":"","EffectiveTimeActTZ":"","PublishDateUTC":null,"RegistrationDeadLineDateUTC":null,"RegistrationDeadLineDateUserTZ":"","RegistrationDeadLineDateLongUserTZ":"","RegistrationDeadLineDateLongActTZ":"","RegistrationDeadLineDateTimeInUserTZ":"","RegistrationDeadLineDateTimeUserTZ":null,"RegistrationDeadLineDateTimeUserTZInUTC":null,"RegistrationDeadLineTimeUserTZ":"","RegistrationCancellationDateUTC":null,"RegistrationCancellationDateUserTZ":"","RegistrationCancellationDateLongUserTZ":"","RegistrationCancellationDateLongActTZ":"","RegistrationCancellationDateTimeInUserTZ":"","RegistrationCancellationDateTimeUserTZ":null,"RegistrationCancellationDateTimeUserTZInUTC":null,"RegistrationCancellationTimeUserTZ":"","ConflictCheckIndicator":false,"DisableEndDateIndicator":false,"ActivityTimeZoneName":null,"RegDeadlineType":null,"CnclDeadlineType":null,"RelativeDaysforRegDeadline":null,"RelativeDaysforCancelDeadline":null,"UserTimeZone":50,"UserCulture":1033},"RegStatus":null,"PrimaryAction":null,"SecondaryActions":null,"Instructor":null,"TimeZoneFK":245,"Language":null,"IsRatingEnabled":true,"IsCommunityEnabled":false,"ActivityRating":{"AverageRating":4.48,"RatingCount":1314,"CommentsCount":0,"IsCommentsAllowed":false,"ShowComments":false,"AllowAnonymousUser":false,"RatedByUser":false,"UserRating":0.0,"RatingControl":"<span id=\"463595\"><div id='wrapper' style='width:100px'><div Mode='Ratable' IsCommentAllowed='False' CanShowComments='False' IsAnonymous='False' ObjId='463595' ObjType='1' RatingsCount='1314' CommentsCount='0' style=\"display:block\" id=\"463595_starcontrol\" class=\"rateit avg-rating\"  data-rateit-value=\"4.48\" data-rateit-max=\"5\" data-rateit-step=\"1\" ></div></div><div id='463595_launchModal' style='display:none' href=\"https://capgemini.sumtotal.host/learning/app/Social/SCL_ReviewRatings.aspx?ActivityId=463595&AvgRating=4.48&MyRating=0&RatingCount=1314&CommentsCount=0&ReadOnly=False\" popuptitle=\"Rating Summary\">test</div><div class=\"jqmWindow\" id=\"463595_jqmWindow\"></div><div id=\"463595_modalWindow\" class=\"jqmWindow\"><div id=\"jqmTitle\"><button class=\"jqmClose\" onClick='OnCommentsPopUpClose();'>X</button><span id=\"jqmTitleText\">Title of modal window</div><iframe style='background-color:white' id=\"jqmContent\" src=\"\"></iframe></div><div id=\"463595_tooltipDiv\" style=\"display: none;\"><table><tr><td style='vertical-align: top;'><div style=\"background-color:#F7DD83;width:35px;height:15px;font:normal 10pt Verdana, Arial, sans-serif;text-align:center;\" id=\"463595_AvgRatingValDiv\" >4.48</div></td><td><div id=\"AvgRatingTextDiv\" ><div class=\"clsnormal\">Average Rating</div><div class=\"comboIntroText\" style=\"text-align:left;\">(out of 5) from <label id=\"463595_RatingCntLbl\">1314</label> ratings</div></div></td></tr><tr><td><div style=\"background-color:#96CAF9;width:35px;height:15px;font:normal 10pt Verdana, Arial, sans-serif;text-align:center;\" id=\"463595_MyRatingValDiv\">0</div></td><td><div id=\"MyRatingTextDiv\" class=\"clsnormal\">My Rating</div></td></tr></table></div><div id='463595_rateRequest' class=\"pleaseRate\"><img src=\"/learning/client/media/images/_common/900/icon-exclamation-orange-16___14_Dec_2017_01_13.png\"></img>Please rate</div><script type=\"text/javascript\">var saveURL_ForStar = \"https://capgemini.sumtotal.host/learning/app/Social/SCL_ReviewRatings.aspx\";var cmntsExceedMsg_ForStar = \"Comments have exceeded maximum length of 4000 characters. Please shorten your comments.\";try{Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function() {$('div.rateit:not(:has(>div))').each(function(){ var noStarControlId = $(this).parent().parent().attr('id');ExpandStarRating(noStarControlId); });});}catch(error){}$(document).ready(function() {var loadInIframeModal = function(hash){var $trigger = $(hash.t);var $modal = $(hash.w);var myUrl = $trigger.attr('href');var myTitle= $trigger.attr('popuptitle');var $modalContent = $(\"iframe\", $modal);$modalContent.html('').attr('src', myUrl);$('#jqmTitleText').text(myTitle);hash.w.show();};$('#463595_modalWindow').jqm({modal: true,trigger: $(\"#463595_launchModal\"),target: '#jqmContent',onShow:  loadInIframeModal});$('#463595_jqmWindow').jqm();bindRatingSummaryqTip(\"463595\");$(\"#463595_starcontrol\").rateit();$(\"#463595_starcontrol\").bind('rated', function () {SaveReview_463595(false);}); $(\"#463595_qTipBtnSubmitUserComments\").bind('click', function () {SaveReview_463595(true);}); $(\"#463595_qTipClose\").bind('click', function () {$(\"#463595_starcontrol\").qtip(\"hide\"); bindRatingSummaryqTip(\"463595\"); }); function SaveReview_463595(commentsPosted){ $(\"#463595_starcontrol\").removeClass('avg-rating');$(\"#463595_starcontrol\").rateit('readonly',true);var comments = \"\";if(commentsPosted == true){comments = $(\"#463595_starcontrol\").qtip(\"api\").elements.content.find(\"textarea\")[0].value;if(comments.length > 4000){ alert('Comments have exceeded maximum length of 4000 characters. Please shorten your comments.'); return; }}else $(\"#463595_starcontrol\").qtip(\"hide\");$.ajax({type: \"POST\",url:\"https://capgemini.sumtotal.host/learning/app/Social/SCL_ReviewRatings.aspx/CreateOrUpdateReview\",data: \"{'ObjectId':\" + $(\"#463595_starcontrol\").attr('objid') + \",\"+ \"'ObjectType':\" + $(\"#463595_starcontrol\").attr('objtype') + \",\"+ \"'Score':\" + $(\"#463595_starcontrol\").rateit('value') + \",\" + \"'_SUMTCSRFTOKEN':\\\"\" + $(\"#_SUMTCSRFTOKEN\").val() + \"\\\",\" + \"'Comments':\\\"\"+ preparse(comments) +\"\\\"}\",contentType: \"application/json; charset=utf-8\",dataType: \"json\",success: function(msg) {var jsonObj =\t$.parseJSON(msg.d);$(\"#463595_starcontrol\").qtip(\"hide\");$(\"#463595_AvgRatingValDiv\").html(jsonObj.AvgRating );$(\"#463595_MyRatingValDiv\").html($(\"#463595_starcontrol\").rateit('value'));$(\"#463595_RatingCntLbl\").html(jsonObj.RatingCount );$(\"#463595_CmntCntLbl\").html( jsonObj.CmntsCount );if($(\"#463595_rateRequest\") != 'undefined'){$(\"#463595_rateRequest\").hide();}if(commentsPosted == true || $(\"#463595_starcontrol\").attr('IsCommentAllowed').toLowerCase() == \"false\"){bindRatingSummaryqTip(\"463595\");}else{var qTip =  $(\"#463595_starcontrol\").qtip(\"api\");if($(\"#463595_starcontrol\").attr('IsCommentAllowed').toLowerCase() == \"true\") {$(\"#463595_starcontrol\").qtip(\"hide\");bindCommentsqTip(\"463595\", \"463595_qTipCommentsDiv\");}$(\"#463595_starcontrol\").qtip(\"show\");}}});}});","Usercomment":null,"RatingId":0,"Emp_LName":null,"Emp_FName":null,"Emp_MI":null,"UpdatedDate":null},"FacilityCity":null,"HasChildren":false,"ChildCount":0,"TaxConTypeID":-6,"TrainingOrganization":null,"IconFK":6,"CBTPath":"/learning/datastore/capgemini_prod/learning/data/20160708_045837_7018/","CBTLaunchMtdFK":-18,"FavouriteId":0,"ImageId":0,"DefaultImagePath":"900/tax/lemtd/elearning_rep.png","ImagePath":"","AvailableSeats":0,"UnlimitedCapacity":false,"GroupActivityId":null,"RootActivityId":463595,"RootActivityName":0,"RootActivityStatus":0,"ParentActivityId":0,"ParentActivityName":null,"ReferenceActivityId":0,"IsCertification":0,"IsOBLSource":false,"OBLSourceId":0,"IsOBLTarget":false,"NoRegRequired":true,"IsRequired":true,"CanExpressInterest":false,"ContentAccess":null,"EstimatedDuration":{"ShowDays":true,"ShowHours":true,"ShowMinutes":true,"ShowSeconds":true,"Days":0.0,"Hours":0.0,"Minutes":34.0,"Seconds":0.0,"EffectiveHoursInDay":8.0,"StorageValue":2040.0},"IsDIFEnabled":false,"Cost":null,"Level":0,"Ordinal":0,"IsLatestVersion":false,"Locations":null,"AvailableLocations":null,"IsLaunchable":true,"LaunchEndDate":null,"LaunchEndDateUserTZ":null,"VersionActivity":{"bIsVersion":false,"LaunchVersionId":0,"CBTLaunchMethodId":0,"RegistrationId":0,"VersionSequence":0,"VersionActivityName":null,"IsLaunchable":false},"IsSelfAssessment":0,"ModeVal":0,"inStaging":0,"PrimaryDomain":null,"Owner":null,"Contact":null,"UserName":null,"URL":null,"LastUpdated":null,"EmailPersonnel":null,"SearchKeyWord":null,"IsRootActivity":false,"ShowCreateVersionButton":false,"ActivityStatus":null,"ActivityCERG":null,"ActivityCECC":null,"ActivityVersional":null,"VersionList":null,"ActivityTR":null,"ActivityContentRevision":null,"ActivityTotalAccessSettings":{"CBTPath":null,"EnableOffline":0,"AllowContentDownLoad":0,"OfflineFileLocation":null,"CreateZip":0,"Status":0,"LogFileName":null,"CBTLaunchMtdFK":null},"SocialRating":null,"SocialRatings":null,"SocialCommunity":null,"CollaborationDetails":{"ExchangePk":null,"ExchangeName":null,"MessageCount":null,"LastMessageDate":null,"Disabled":1},"IsCollaborationCenterEnabled":false,"ObservationChecklistProperties":null,"Certification":null,"MetaData":{"MediaTypeId":0,"MediaTypeName":null,"DeliveryMethodId":0,"DeliveryMethodName":null,"ContentTypeId":0,"ContentTypeName":null,"ExpirationDate":null,"RegionId":null,"RegionName":null,"LanguageId":0,"LanguageName":null,"ExternalClass":null,"ExternalID":null,"ExternalNameSpace":null,"InactivateOnExpDt":false,"ExpirationType":0,"ExpirationDays":null,"AdditionalInformation":null,"UserMetaData":{}},"RegistrationConfiguration":null,"LinkedActivities":null,"LaunchMethod":0,"LinkedActId":0,"LinkedActName":null,"PrimaryDomainId":-1,"ActSummaryInd":0,"ObserverType":0,"canAddBundle":0,"ActivityInstructor":null,"ActivityLocation":null,"ActivityVendor":null,"ActivityEquipment":null,"ActivityAudInst":null,"IsInstAudExpired":false,"ValidationResults":null,"ActivitySkills":null,"ActivityCompetencies":null,"ActivityRCSList":null,"ActivityAdhocAttachmentList":null,"ActivityCECTargetList":null,"ActivityCECInstCreditList":null,"ExternalStatus":null,"RegisteredUsers":0,"LaunchMtdName":null,"TranslatedProperties":null,"GradingAndCompletionProperties":{"ContributeRollupIndicator":false,"RequiredIndicator":false,"GradingScaleId":null,"GradingScaleName":null,"EnableGradingScaleAssociation":false,"MinimumPercentGrade":null,"EstimatedCreditHours":null,"ActToComplete":null,"PickRuleType":0,"PickRule":null,"DiplomaId":null,"DiplomaName":null,"DefaultDiplomaResourceKey":null,"CanLearnerSign":false,"CanInstAdminSign":false,"CanManagerSign":false,"EnableAutomaticActivityCompletion":false,"DaystoAutoComplete":null,"AutoCompletionStatus":false,"CalculateCompletionChange":false,"CanViewPrintCertificate":false,"EnableLASequence":false,"PageLayout":0},"Notifications":null,"IsCBT":0,"IsSubscrLnkSrc":0,"IsofferingTarget":0,"CanChangeActStruct":0,"IsMSLMChild":0,"IsDeleted":0,"CBTLaunchMethodName":null,"WebBasedTrainingDetails":{"LaunchURL":null,"LaunchRemote":false,"ShowProgressDetails":false,"ShowInteractionDetails":false,"ApplyLMSFinish":false,"CopyAttempt":false,"IsSkillSoftActivity":false,"EnableOffline":false,"AllowContentDownload":false,"OfflineFileLocation":null,"DefaultOfflineFileLocation":null,"CoreVendor":null,"PackagePropertiesXML":null,"PackageProperties":null,"ContentAccessConfiguration":null,"QuickAssessment":null,"LiveMeetingDetails":null,"SynchronousWBTDetails":null,"RecordedActivityID":null,"ParticipantCode":null,"LeaderCode":null,"HasRecordings":false,"TimeZone":null,"WBTDescription":null,"RecordingURL":null,"OldInstructors":null,"iLincAdvancedSettingsURL":null,"IsMobileEnabled":false,"ReportURL":null,"ActContentReplaceEnabled":false,"IsxAPIContent":false,"ExternalMediaId":null,"ContentEngineCompliant":false,"ImportedToContentEngine":0,"ImportedToLMS":0,"EnableScrubbing":false},"RegistrationOrganizations":null,"RegistrationJobs":null,"ManagedOrganizations":null,"ManagedJobs":null,"ManagedAudiences":null,"ManagedUsers":null,"ManagedDomains":null,"Categories":null,"CanAddManagerAssignments":false,"CanEditManagerAssignments":false,"CanRemoveManagerAssignments":false,"InheritDomainSettingsForManagerAssignments":false,"RequiredProperites":null,"ChildActivities":null,"StageTracks":null,"ProdTracks":null,"MaximumAttempts":null,"MaximumAttemptsPerParent":null,"DisableMaxAttNotification":false,"RelaunchEnabled":false,"ReviewEnabled":false,"IsActivityInProduction":false,"HasDefaultAudience":false,"TimeZoneOffset":0.0,"ProductionCopySchedule":null,"ActivityChecklist":null,"CheckListUIObjects":null,"IsEcomInvolved":0,"VersionNumber":null,"DisableVersionalUploadUI":false,"InheritDomainSettingsForOnlineContent":false,"RedirectionForOnlineContent":0,"RedirectUrlId":null,"RedirectUrlLink":null,"IsSingleClickRegistrationEnabled":false,"IsActivityHiddenFromSearch":false,"OtherOfferingsForRoot":0,"CurriculumStructureIndex":"","Attempt":null,"IsRegistrationInitiated":false,"FlexXML":null,"FulFilledActivityName":null,"CategoryRootNodeID":0,"ActivityAssignment":null,"FulFillmentActivityName":null,"IsEvalutionPresent":false,"OffSource":0,"IsRegExistForCC":0,"IsOnlySourceReg":0,"IsSelfReportedTrainingActivity":false,"IsOJTClass":true,"IsAlternativeActivitiesAvailable":false,"ShowCancelButtonForChild":false,"ShowRegisterButtonForChild":false,"AssociatedCategories":null,"IsDiplomaAssociated":true,"NasbaCreditHours":null,"PMICreditHours":null,"IsSharePointEnabled":false,"EsignaturePk":0,"SubscriptionsFromCount":0,"PublishedDate":null,"EvalExists":0,"Usetype":0,"AttemptStatus":4,"CategorySummaryDetails":null,"AssignedUser":0,"AutoRegistration":null,"AutoCancellation":null,"IsELATemplate":0,"LaunchTypesList":null,"ExtendedEnterprise":null,"IsCartPurchaseEnable":false,"ActAssApprovalWorkflow":{"IsApprovalWorkflowEnabled":false,"ApprvlWorkflowFK":0,"ApprvlWorkflowName":null,"IsContServAgrReq":false,"PurposeType":null,"TypeCode":null,"SubTypeCode":null,"DeliveryTypeCode":null,"DesignationTypeCode":null,"Credit":0.0,"CreditTypeCode":null,"AccreditationInd":false,"SourceTypeCode":null,"FormBasedEnabled":false,"EHRIEnabled":false,"PurposreTypeCodeList":null,"TypeCodeList":null,"SubTypeCodeList":null,"DeliveryTypeCodeList":null,"DesignationTypeCodeList":null,"CreditTypeCodeList":null,"SourceTypeCodeList":null},"MinCapacity":0,"MaxCapacity":0,"NoOfUsersRegistered":0,"NoOfUsersInProgress":0,"UseresWithRegAndInProg":0,"NoOfUsersInWaitingList":0,"NoOfUsersInPendingAppr":0,"NoOfUsersRejectedAppr":0,"NoOfUsesAttended":0,"NoOfWaivedUsers":0,"NoOfUsersWithNoStatus":0,"NOOfCancelledusers":0,"IsChild":0,"AttemptsRemaining":0,"MaxAttempts":0},"Registration":{"Status":{"StatusId":4},"RegistrationId":21141842,"RegisteredActivityId":null,"IsRegistered":false,"RegistrationDateUTC":null,"RegistrationDateUserTZ":null,"RegCancellationDate":null,"RegCancellationUserTZ":null,"IsRegistrationExistForCC":1,"IsOnlySourceRegistered":false,"IsCancelable":false,"IsCourseDownloaded":false,"HasRegistrationIssues":false},"Attempt":null,"AssignmentInformation":null,"PrimaryAction":null,"SecondaryActions":null,"IsInstructor":false,"CanRegister":false,"CartCost":null,"AttemptHistory":[{"AttemptId":38565297,"RegistrationId":null,"Score":0.0,"GradeId":null,"StartDateInUtc":"2018-02-02T11:58:07.16","EndDateInUtc":"2018-02-02T12:01:08.787","LinkAttemptId":null,"IsSuccess":true,"Completed":true,"AttendStatusId":1,"EndDateUserTZ":"2/2/2018 7:01:08 AM","DeCertificationStatus":false,"OfflineInd":0,"ExpirationDate":null,"ExpirationDateUserTZ":null,"StartDateUserTZ":"2/2/2018 6:58:07 AM","IsPassed":null,"RootAttemptId":38565297,"ElapsedTime":null}],"ChildUserTrainingItem":null,"TrainingSchedule":null,"IsCritical":false,"ExtendedEnterpriseInformation":null,"ExternalStatus":null,"TransactionInformation":null,"ExtendedEnterpriseExpirationDetail":null,"NeedByDate":null,"CategoryName":null}],"BundleDetails":null,"EnableActivityCode":true,"EnableCommunity":false,"EnableEvaluations":true,"EnableDiploma":true,"EnableDate":true,"EnableInformation":true,"EnableRequired":false,"EnableRating":true,"EnableRegistrationButton":false,"EnableManageRosterButton":false,"EnableDoneButton":false,"IsTMSession":false,"InvoiceId":0,"HomeLink":"/learning/app/management/LMS_LearnerHome.aspx","ViewMode":"0","IsPortalEnabled":false,"RootNodeId":0,"AssociatedCategories":null,"strViewDropdownMode":"","IsManagerImpLearner":false,"IsFrenchUser":false,"ShowWaivedDiploma":false,"CanViewOwnInvoice":false,"Task":"","IsErrorInChildRegistration":false,"IsImpersonating":false,"RegistrationError":"","HasRegistrationIssues":"0","EmpIdForPublishToOutlook":"","ActListForPublishToOutlook":"","ShowAddtoCart":false,"iShowAddressBar":0,"ShowLaunchForVersional":true,"EnableRegistrationButtonInOptions":false};
+
+    var CategoryList = '';
+    var SkillList='';
+    var PreReqList='';
+    var FacilityList='';
+    var InstructorList='';
+    var actRootNode = '';
+
+    var isLaunchable = activitiesList.ActivityDetails[0].TrainingActivity.IsLaunchable;
+    var imagePath = activitiesList.ActivityDetails[0].TrainingActivity.ImagePath;
+    var defaultImagePath =  activitiesList.ActivityDetails[0].TrainingActivity.DefaultImagePath;
+    var actType = activitiesList.ActivityDetails[0].TrainingActivity.ActivityLabel.Name;
+    var description = activitiesList.ActivityDetails[0].TrainingActivity.Description;
+    var ratingControl = activitiesList.ActivityDetails[0].TrainingActivity.ActivityRating.RatingControl;
+    var rootActivityId='463595';
+    var actRegStatus= -1;
+    if (activitiesList.ActivityDetails[0].Registration.Status != null)
+    {
+        actRegStatus= activitiesList.ActivityDetails[0].Registration.Status.StatusId;
+    }
+    var regStatus='' ;
+    //var rootAttemptId=activitiesList[0].Attempt.AttemptId;
+    var isDiplomaAssociated=activitiesList.ActivityDetails[0].TrainingActivity.IsDiplomaAssociated;
+    var CommunityType ='LA';
+    var CommunityDiscussion='1';
+    var CommunityDocuments='2';
+    var CommunityBlogPosts='4';
+    var strCallerURL=STRING_SITE_PREFIX+"/core/activitydetails/ViewActivityDetails/"+rootActivityId+"?ActivityId="+rootActivityId+"&UserMode="+STRING_USERMODE;
+    var g_strUserMode=STRING_USERMODE;
+    var g_strActivityId=rootActivityId;
+    var actType = activitiesList.ActivityDetails[0].TrainingActivity.ActivityLabel.Name;
+    var actTypeId = activitiesList.ActivityDetails[0].TrainingActivity.ActivityLabel.Id;
+    var offeredByTypeFk=activitiesList.ActivityDetails[0].OtherOfferingsForRoot;
+    var actEval=activitiesList.ActivityDetails[0].TrainingActivity.IsEvalutionPresent;
+    var CommunityID =activitiesList.ActivityDetails[0].TrainingActivity.Community.CommunityId;
+    var NoRegRequired = activitiesList.ActivityDetails[0].TrainingActivity.NoRegRequired;
+    var CBTLaunchMtdFK = activitiesList.ActivityDetails[0].TrainingActivity.CBTLaunchMtdFK;
+    var UserSchedule=activitiesList.ActivityDetails[0].TrainingActivity.Schedule;
+    var registrationStatus= -1;
+    if (activitiesList.ActivityDetails[0].Registration.Status != null)
+    {
+        registrationStatus = activitiesList.ActivityDetails[0].Registration.Status.StatusId;
+    }
+    var IsCancelable = activitiesList.ActivityDetails[0].Registration.IsCancelable;
+    var isOnlySourceRegistered=activitiesList.ActivityDetails[0].Registration.IsOnlySourceRegistered;
+    var isRequired = activitiesList.ActivityDetails[0].TrainingActivity.IsRequired;
+    var isSelfReportedTraining = activitiesList.ActivityDetails[0].TrainingActivity.IsSelfReportedTrainingActivity;
+    var showAlternativeActivitiesForRoot=activitiesList.ActivityDetails[0].TrainingActivity.IsAlternativeActivitiesAvailable;
+
+    var ShowRegisterButton=false;
+    var ShowRegisterButtonInOptions=false;
+    var ShowManageRoster=false;
+    var strViewMode=0;
+    var strRoleViewMode=0;
+    var ShowDoneButton=false;
+    var RootNodeId='0';
+    var IsTMSession=false;
+    var IsPortalEnabled=false;
+    var strHomeLink= '/learning/app/management/LMS_LearnerHome.aspx';
+    var bActivityCode=true;
+    var bCCIcon=false;
+    var bEval=true;
+    var bDiploma=true;
+    var bDate=true;
+    var bInformation=true;
+    var bRating=true;
+    var iShowAddressBar= '0';
+    var strInvoiceId='0';
+    var strTask='';
+    var bViewOwnInvoice = false;
+    var showWaivedDiploma=false;
+    var IsFrenchUser=false;
+    var IsManagerImpLearner=false;
+    var ShowLaunchForVersional = true;
+    var g_FromCECCSummary="";
+    var g_CECCSummaryURL="";
+    var strFromCECCSummary="";
+    var strCECCSummaryURL="";
+    var IsCollaborationCenterEnabled =  activitiesList.ActivityDetails[0].TrainingActivity.IsCollaborationCenterEnabled;
+    var ExchangePk = activitiesList.ActivityDetails[0].TrainingActivity.CollaborationDetails.ExchangePk;
+    var IsSharePointEnabled =activitiesList.ActivityDetails[0].TrainingActivity.IsSharePointEnabled;
+    var DiscussionCount = activitiesList.ActivityDetails[0].TrainingActivity.Community.DiscussionCount;
+    var DocumentCount = activitiesList.ActivityDetails[0].TrainingActivity.Community.DocumentCount;
+    var BlogCount = activitiesList.ActivityDetails[0].TrainingActivity.Community.BlogCount;
+    var strViewDropdownMode='';
+    var childattempt =  (activitiesList.ActivityDetails[0].AttemptHistory!= null) ? activitiesList.ActivityDetails[0].AttemptHistory.length : 0;
+    var topMostRootActivityId = 463595;
+    var yammerGroupId= 0;
+    var RegId = 21141842;
+    var isRegistrationInitiated=activitiesList.ActivityDetails[0].TrainingActivity.IsRegistrationInitiated;
+    var showMsg =false;
+    var callBackUrl='';
+    var canViewScore='true';
+	var g_strLearnerRU = '';
+    var IsErrorInChildRegistration =activitiesList.IsErrorInChildRegistration;
+    var CompletionRule=activitiesList.ActivityDetails[0].TrainingActivity.GradingAndCompletionProperties.ActToComplete;
+    if(IsErrorInChildRegistration)
+        alert(L_LMS_ActDetails_ErrorInSingleClickChildRegistration_Msg);
+
+    var IsImpersonating=false;
+    var registrationError = activitiesList.RegistrationError;
+    var hasRegistrationIssues = activitiesList.HasRegistrationIssues;
+    var EmpIdForPublishToOutlook=activitiesList.EmpIdForPublishToOutlook;
+    var ActListForPublishToOutlook=activitiesList.ActListForPublishToOutlook;
+    var cartAlertSuccessMsg="Activity successfully added to shopping cart.";
+    var cartAlertSuccessMsgHeader="Success! ";
+    var cartAlertWarningMsg="This item is already in your cart.";
+    var cartAlertWarningMsgHeader="Heads up:";
+    var cartAlertWarningCurrencyMsg="This item cannot be added to your cart because there’s currently an item in your cart with a defined currency that does not match the currency of the item you’re trying to add.";
+    var cartAlertFailureMsg="Sorry, this item cannot be added to your cart. Please try a different item instead.";
+    var cartAlertFailureMsgHeader="Uh-oh:";
+    var BundleActId=0;
+</script>
+
+<div id="ActDetailsPanel" data-ng-controller="ActivityDetailsController" class="ng-scope">
+    <div id="actInvoicePanel">
+        <div ng-show="isRegistrationInitiated &amp;&amp; showMsg" class="alert alert-warning hidden-print ng-hide" ng-class="{false:&#39;hidden-print&#39;}[isRegistrationInitiated &amp;&amp; showMsg]"><i class=" fa fa-exclamation-circle fa-fw"></i>User initiated the registration for the activity structure. Since there were registration issues against some activities of the structure, user can process the registration for child activities.</div>
+        <div ng-show="isRegistrationInitiated &amp;&amp; !showMsg" class="alert alert-warning hidden-print ng-hide" ng-class="{false:&#39;hidden-print&#39;}[isRegistrationInitiated &amp;&amp; !showMsg]"><i class=" fa fa-exclamation-circle fa-fw"></i>User initiated the registration for activity structure and can process the registration for child activities.</div>
+        <div class="alert alert-success hidden-print ng-hide" ng-show="strTask &gt; 1 &amp;&amp; !isRegistrationInitiated &amp;&amp; hasRegistrationIssues!=1" ng-class="{false:&#39;hidden-print&#39;}[strTask &gt; 1 &amp;&amp;  !isRegistrationInitiated &amp;&amp; hasRegistrationIssues!=1]">
+            <div><i class="fa fa-exclamation-circle fa-fw"></i>Congratulations! You have completed the registration process. Please look at the details below for more information about your registration status and activity progress.</div>
+            <div ng-show=" strInvoiceId&gt;0 &amp;&amp; bViewOwnInvoice" ng-class="{false:&#39;hidden-print&#39;}[strInvoiceId&gt;0 &amp;&amp; bViewOwnInvoice]" class="ng-hide hidden-print">
+                <i class="fa fa-exclamation-circle fa-fw"></i>
+                <a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" class="alert-link" onclick="javascript:_UTL_Navigate(STRING_SITE_PREFIX+&#39;/app/E-Commerce/ui/InvoiceDetails.aspx?UserMode=&#39;+STRING_USERMODE+&#39;&amp;InvoicePk=&#39;+strInvoiceId+&#39;&amp;CallerURL=&#39;+escape(strCallerURL))">Click here to view invoice details</a>
+            </div>
+        </div>
+        <div ng-show="registrationError != &#39;&#39;" class="alert alert-warning hidden-print ng-hide" ng-class="{false:&#39;hidden-print&#39;}[registrationError != &#39;&#39;]">
+            <i class="fa fa-exclamation-circle fa-fw"></i>
+            <span id="alertMsg" tabindex="-1" role="alert" class="ng-binding"> </span>
+        </div>
+        <div id="shoppingCartAlert" class="alert row alert-danger hidden" ng-class="[{&#39;alert-success&#39;:cartAlertRes},{&#39;alert-danger&#39;:!cartAlertRes},{&#39;hidden&#39;:!showCartAlert}]">
+            <div tabindex="-1" id="shoppingCartAlertMsg" class="pull-left"><b ng-bind="cartAlertMsgHeader" class="ng-binding"></b><span ng-bind="cartAlertMsg" class="ng-binding"></span>&nbsp;<span>To view items in cart,</span>&nbsp;<a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" class="alert-link" onclick="javascript:_UTL_Navigate(STRING_SITE_PREFIX+&#39;/core/shoppingcart/checkout&#39;)">click here.</a></div>
+            <button type="button" class="close" title="Close" ng-click="showCartAlert=false;"><i class="fa fa-times"></i></button>
+        </div>
+    </div>
+    <div id="actDetailsHeader" class="clsActDetailsHeader">
+        <div class="headerLeft">
+            <div title="Big Data" id="divActImage">
+                <img class="sumt-activityimage img-large" id="imgActivity" alt="Big Data" err-src="/learning/client/media/images/_common//900/tax/lemtd/elearning_rep.png" ng-src="/learning/client/media/images/_common//900/tax/lemtd/elearning_rep.png" src="./Activity Details3_files/elearning_rep.png">
+            </div>
+        </div>
+        <div class="clsRootActDetails">
+            <div>
+                <!-- ngIf: actType --><p class="h4 ng-binding ng-scope" title="Web-based Learning" ng-if="actType">Web-based Learning</p><!-- end ngIf: actType -->
+            </div>
+            <div class="ActivityNameMargin">
+				<div class="clearfix">
+					<div><h1><div title="Big Data" class="clsEllipsis ActivityName ng-binding"> Big Data</div></h1></div>
+					<div class="ActivityLabelHeight">
+						<div class="label clsLeftPadding20 pull-left ng-binding label-success" ng-show="strViewMode==0" ng-class="[getLabel(actRegStatus,rootActivityId),{false:&#39;hidden-print&#39;}[strViewMode==0]]">Attended</div>
+						<!-- ngIf: ShowAddToCart -->
+					</div>
+				</div>
+                <div class="clearfix">
+                    <small class="pull-left text-right" style="text-transform:none">
+                        <i ng-class="{&#39;fa fa-clock-o&#39; : selectedActEstDur != null }" class="fa fa-clock-o" style=""></i>
+                        <span ng-show="selectedActEstDur!=null &amp;&amp; selectedActEstDur.Days!=0" ng-class="{false:&#39;hidden-print&#39;}[selectedActEstDur!=null &amp;&amp; selectedActEstDur.Days!=0]" class="ng-binding ng-hide hidden-print">
+                            0 Days
+                        </span>
+                        <span ng-show="selectedActEstDur!=null &amp;&amp; selectedActEstDur.Hours!=0" ng-class="{false:&#39;hidden-print&#39;}[selectedActEstDur!=null &amp;&amp; selectedActEstDur.Hours!=0]" class="ng-binding ng-hide hidden-print">
+                            0 Hours
+                        </span>
+                        <span ng-show="selectedActEstDur!=null &amp;&amp; selectedActEstDur.Minutes!=0" ng-class="{false:&#39;hidden-print&#39;}[selectedActEstDur!=null &amp;&amp; selectedActEstDur.Minutes!=0]" class="ng-binding" style="">
+                            34 Minutes
+                        </span>
+                        <span ng-show="selectedActEstDur!=null &amp;&amp; selectedActEstDur.Seconds!=0" ng-class="{false:&#39;hidden-print&#39;}[selectedActEstDur!=null &amp;&amp; selectedActEstDur.Seconds!=0]" class="ng-binding ng-hide hidden-print">
+                            0 Seconds
+                        </span>
+                    </small>
+                </div>
+                <!-- ngIf: hasEEExpiration && ActivitySubscriptionDaysToExpire != null -->
+            </div>
+            <div class="clearfix"></div>
+            <!-- ngIf: !IsBundleActivity && !ShowAddToCart --><div class="ratingDiv ng-scope" ng-if="!IsBundleActivity &amp;&amp; !ShowAddToCart">
+                <div class="rating  pull-left" id="ratingDiv" ng-show="bRating" ng-class="{false:&#39;hidden-print&#39;}[bRating]"><span id="463595"><div id="wrapper" style="width:100px"><div mode="Ratable" iscommentallowed="False" canshowcomments="False" isanonymous="False" objid="463595" objtype="1" ratingscount="1314" commentscount="0" style="display:block" id="463595_starcontrol" class="rateit avg-rating" data-rateit-value="4.48" data-rateit-max="5" data-rateit-step="1" data-hasqtip="0"><button id="rateit-reset-2" type="button" data-role="none" class="rateit-reset" aria-label="reset rating" aria-controls="rateit-range-2" style="display: inline-block;"></button><div id="rateit-range-2" class="rateit-range" tabindex="0" role="slider" aria-label="rating" aria-owns="rateit-reset-2" aria-valuemin="0" aria-valuemax="5" aria-valuenow="4.48" aria-readonly="false" style="width: 80px; height: 16px;"><div class="rateit-selected" style="height: 16px; width: 71.68px;"></div><div class="rateit-hover" style="height:16px"></div></div></div></div><div id="463595_launchModal" style="display:none" href="https://capgemini.sumtotal.host/learning/app/Social/SCL_ReviewRatings.aspx?ActivityId=463595&amp;AvgRating=4.48&amp;MyRating=0&amp;RatingCount=1314&amp;CommentsCount=0&amp;ReadOnly=False" popuptitle="Rating Summary">test</div><div class="jqmWindow jqm-init" id="463595_jqmWindow"></div><div id="463595_modalWindow" class="jqmWindow jqm-init"><div id="jqmTitle"><button class="jqmClose" onclick="OnCommentsPopUpClose();">X</button><span id="jqmTitleText">Title of modal window</span></div><iframe style="background-color:white" id="jqmContent" src="./Activity Details3_files/saved_resource.html"></iframe></div><div id="463595_tooltipDiv" style="display: none;"><table><tbody><tr><td style="vertical-align: top;"><div style="background-color:#F7DD83;width:35px;height:15px;font:normal 10pt Verdana, Arial, sans-serif;text-align:center;" id="463595_AvgRatingValDiv">4.48</div></td><td><div id="AvgRatingTextDiv"><div class="clsnormal">Average Rating</div><div class="comboIntroText" style="text-align:left;">(out of 5) from <label id="463595_RatingCntLbl">1314</label> ratings</div></div></td></tr><tr><td><div style="background-color:#96CAF9;width:35px;height:15px;font:normal 10pt Verdana, Arial, sans-serif;text-align:center;" id="463595_MyRatingValDiv">0</div></td><td><div id="MyRatingTextDiv" class="clsnormal">My Rating</div></td></tr></tbody></table></div><div id="463595_rateRequest" class="pleaseRate"><img src="./Activity Details3_files/icon-exclamation-orange-16___14_Dec_2017_01_13.png">Please rate</div><script type="text/javascript">var saveURL_ForStar = "https://capgemini.sumtotal.host/learning/app/Social/SCL_ReviewRatings.aspx";var cmntsExceedMsg_ForStar = "Comments have exceeded maximum length of 4000 characters. Please shorten your comments.";try{Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function() {$('div.rateit:not(:has(>div))').each(function(){ var noStarControlId = $(this).parent().parent().attr('id');ExpandStarRating(noStarControlId); });});}catch(error){}$(document).ready(function() {var loadInIframeModal = function(hash){var $trigger = $(hash.t);var $modal = $(hash.w);var myUrl = $trigger.attr('href');var myTitle= $trigger.attr('popuptitle');var $modalContent = $("iframe", $modal);$modalContent.html('').attr('src', myUrl);$('#jqmTitleText').text(myTitle);hash.w.show();};$('#463595_modalWindow').jqm({modal: true,trigger: $("#463595_launchModal"),target: '#jqmContent',onShow:  loadInIframeModal});$('#463595_jqmWindow').jqm();bindRatingSummaryqTip("463595");$("#463595_starcontrol").rateit();$("#463595_starcontrol").bind('rated', function () {SaveReview_463595(false);}); $("#463595_qTipBtnSubmitUserComments").bind('click', function () {SaveReview_463595(true);}); $("#463595_qTipClose").bind('click', function () {$("#463595_starcontrol").qtip("hide"); bindRatingSummaryqTip("463595"); }); function SaveReview_463595(commentsPosted){ $("#463595_starcontrol").removeClass('avg-rating');$("#463595_starcontrol").rateit('readonly',true);var comments = "";if(commentsPosted == true){comments = $("#463595_starcontrol").qtip("api").elements.content.find("textarea")[0].value;if(comments.length > 4000){ alert('Comments have exceeded maximum length of 4000 characters. Please shorten your comments.'); return; }}else $("#463595_starcontrol").qtip("hide");$.ajax({type: "POST",url:"https://capgemini.sumtotal.host/learning/app/Social/SCL_ReviewRatings.aspx/CreateOrUpdateReview",data: "{'ObjectId':" + $("#463595_starcontrol").attr('objid') + ","+ "'ObjectType':" + $("#463595_starcontrol").attr('objtype') + ","+ "'Score':" + $("#463595_starcontrol").rateit('value') + "," + "'_SUMTCSRFTOKEN':\"" + $("#_SUMTCSRFTOKEN").val() + "\"," + "'Comments':\""+ preparse(comments) +"\"}",contentType: "application/json; charset=utf-8",dataType: "json",success: function(msg) {var jsonObj =	$.parseJSON(msg.d);$("#463595_starcontrol").qtip("hide");$("#463595_AvgRatingValDiv").html(jsonObj.AvgRating );$("#463595_MyRatingValDiv").html($("#463595_starcontrol").rateit('value'));$("#463595_RatingCntLbl").html(jsonObj.RatingCount );$("#463595_CmntCntLbl").html( jsonObj.CmntsCount );if($("#463595_rateRequest") != 'undefined'){$("#463595_rateRequest").hide();}if(commentsPosted == true || $("#463595_starcontrol").attr('IsCommentAllowed').toLowerCase() == "false"){bindRatingSummaryqTip("463595");}else{var qTip =  $("#463595_starcontrol").qtip("api");if($("#463595_starcontrol").attr('IsCommentAllowed').toLowerCase() == "true") {$("#463595_starcontrol").qtip("hide");bindCommentsqTip("463595", "463595_qTipCommentsDiv");}$("#463595_starcontrol").qtip("show");}}});}});</script></span></div>
+                <div>
+                    <div class="progress progressBarSize pull-right">
+                        <div id="progressbar" class="progress-bar progress-bar-primary" role="progressbar" style="min-width: 15%; width: 100%;">
+                            <span class="progressValue ng-binding"> 100%</span>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end ngIf: !IsBundleActivity && !ShowAddToCart -->
+            <div id="actDetails" class="descDiv clearfix">
+                <div class="pull-left">
+                    <button type="button" class="btn-link paddingLeft0 k-state-border-down" ng-show="(childattempt &gt; 0 &amp;&amp; isSelfReportedTraining == 0 &amp;&amp; bInformation &amp;&amp; strViewMode==0) || (bInformation &amp;&amp; isSelfReportedTraining == 1 &amp;&amp; rootAttemptId &gt; 0)" id="463595_tooltip" ng-click="showIssueToolTip(selectedUserTrainingItem);cancelEvent(event);" ng-class="{false:&#39;hidden-print&#39;}[(childattempt &gt; 0 &amp;&amp; isSelfReportedTraining == 0 &amp;&amp; bInformation &amp;&amp; strViewMode==0) || (bInformation &amp;&amp; isSelfReportedTraining == 1 &amp;&amp; rootAttemptId &gt; 0)]" data-role="tooltip" aria-describedby="463595_tooltip_tt_active" style="">Attempt History</button>
+                </div>
+                <div class="pull-right">
+                    <div class="btn-group dropdown hidden-print ng-hide" ng-show="strViewDropdownMode==1" ng-class="{false:&#39;hidden-print&#39;}[strViewDropdownMode==1]">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="ddView" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" aria-controls="ulView">
+                            View as instructor
+                            <span class="caret"></span>
+                        <span class="caret"></span></button>
+
+                        <ul id="ulView" class="dropdown-menu pull-right" role="menu" aria-labelledby="ddView">
+                            <li role="presentation"><a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" role="menuitem" ng-click="ChangeRoleToLearner();">View as learner</a></li>
+                            <li role="presentation"><a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" role="menuitem" ng-click="ChangeRoleToInstructor();">View as instructor</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group clsLeftPadding15 ng-hide hidden-print" ng-show="ShowRegisterButton" ng-class="{false:&#39;hidden-print&#39;}[ShowRegisterButton]" style="">
+                        <button class="btn btn-primary ng-hide" type="button" ng-click="registerRootActivity()" ng-show="((selectedUserTrainingItem.ChildUserTrainingItem != null &amp;&amp; progressValue != 100 &amp;&amp; selectedActId == topMostRootActivityId) || (selectedUserTrainingItem.ChildUserTrainingItem == null &amp;&amp; progressValue == 0 &amp;&amp; selectedActId == topMostRootActivityId &amp;&amp; selectedUserTrainingItem.AttemptHistory == null) )">Register</button>
+                        <button class="btn btn-primary" type="button" ng-click="registerRootActivity()" ng-show="(selectedUserTrainingItem.ChildUserTrainingItem != null &amp;&amp; progressValue == 100 &amp;&amp; selectedActId == topMostRootActivityId) || (selectedUserTrainingItem.ChildUserTrainingItem == null &amp;&amp; selectedUserTrainingItem.AttemptHistory != null &amp;&amp; selectedActId == topMostRootActivityId)">Register Again</button>
+                    </div>
+                    <div class="btn-group clsLeftPadding15 hidden-print ng-hide" ng-show="!isLaunchable &amp;&amp; !IsManagerImpLearner &amp;&amp; !ShowAddToCart" ng-class="{false:&#39;hidden-print&#39;}[!isLaunchable &amp;&amp; !IsManagerImpLearner]">
+                        <button role="presentation" tabindex="-1" ng-class="[{true:&#39;btn btn-default sumt-btn-default&#39;,false:&#39;btn btn-primary&#39;}[ShowRegisterButton],{false:&#39;hidden-print&#39;}[!isLaunchable &amp;&amp; isSelfReportedTraining == 0]]" type="button" ng-show="!isLaunchable &amp;&amp; isSelfReportedTraining == 0" class="ng-hide  hidden-print btn btn-primary" style="">
+                            Options
+                        </button>
+                        <button class="dropdown-toggle btn btn-primary" ng-class="[{true:&#39;btn btn-default sumt-btn-default&#39;,false:&#39;btn btn-primary&#39;}[ShowRegisterButton],{false:&#39;hidden-print&#39;}[isSelfReportedTraining == 0]]" aria-expanded="false" type="button" data-toggle="dropdown" ng-show="isSelfReportedTraining == 0" title="Options for learning activity Big Data" aria-haspopup="true" aria-controls="ulPrntOpt" id="btnPrntOpt" style="">
+                            <span class="caret"></span>
+                            <span class="sr-only">Options</span>
+                        </button>
+                        <ul id="ulPrntOpt" class="dropdown-menu pull-right" role="menu" aria-labelledby="btnPrntOpt">
+                            <li role="presentation" ng-show="ShowRegisterButtonInOptions &amp;&amp; selectedActId == topMostRootActivityId" ng-class="{false:&#39;hidden-print&#39;}[ShowRegisterButtonInOptions &amp;&amp; selectedActId == topMostRootActivityId]" class="ng-hide hidden-print" style=""><a role="menuitem" aria-label="Register" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="registerRootActivity()">Register</a></li>
+                            <li role="presentation" ng-show="IsCancelable &amp;&amp; strViewMode == 0" ng-class="{false:&#39;hidden-print&#39;}[IsCancelable &amp;&amp; strViewMode == 0]" class="ng-hide hidden-print"><a role="menuitem" aria-label="Cancel registration" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="CancelActivity(selectedActId)">Cancel registration</a></li>
+                            <li role="presentation" ng-show="ShowManageRoster &amp;&amp; strViewMode == 1" ng-class="{false:&#39;hidden-print&#39;}[ShowManageRoster &amp;&amp; strViewMode == 1]" class="ng-hide hidden-print"><a role="menuitem" aria-label="Manage roster" href="javascript:OnClick_ManageRoster(rootActivityId,actTypeId,offeredByTypeFk);">Manage roster</a></li>
+                            <li role="presentation"><a role="menuitem" aria-label="Add to Favorites" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="LaunchFavourite(rootActivityId)">Add to Favorites</a></li>
+                            <li role="presentation" ng-show="actEval &amp;&amp; bEval" ng-class="{false:&#39;hidden-print&#39;}[actEval &amp;&amp; bEval]" class="ng-hide hidden-print"><a role="menuitem" aria-label="Evaluations" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="ViewEvaluation(rootActivityId)">Evaluations</a></li>
+                            <li role="presentation" ng-show="bDiploma &amp;&amp; isDiplomaAssociated" ng-class="{false:&#39;hidden-print&#39;}[bDiploma &amp;&amp; isDiplomaAssociated]" class="" style=""><a role="menuitem" aria-label="Diploma" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="LaunchDiplomaReport(rootAttemptId,selectedActId,STRING_USERMODE)">Diploma</a></li>
+                            <li role="presentation"><a role="menuitem" aria-label="Print" href="javascript:_UTL_WindowPrint()"> Print</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group clsLeftPadding15" ng-show="ShowAddToCart || (isLaunchable &amp;&amp; !IsManagerImpLearner)" ng-class="{false:&#39;hidden-print&#39;}[ShowAddToCart || (isLaunchable &amp;&amp; !IsManagerImpLearner)]">
+                        <!-- ngIf: isLaunchable && !ShowAddToCart --><button class="btn btn-primary ng-scope" ng-if="isLaunchable &amp;&amp; !ShowAddToCart" type="button" ng-click="Launch(selectedUserTrainingItem)">Start</button><!-- end ngIf: isLaunchable && !ShowAddToCart -->
+                        <!-- ngIf: isLaunchable && !ShowAddToCart --><button class="dropdown-toggle btn btn-primary ng-scope" ng-if="isLaunchable &amp;&amp; !ShowAddToCart" aria-expanded="false" type="button" data-toggle="dropdown" aria-haspopup="true" aria-controls="ulPrntAddCart" id="btnPrntAddCart">
+                            <span class="caret"></span>
+                            <span class="sr-only">Start</span>
+                        </button><!-- end ngIf: isLaunchable && !ShowAddToCart -->
+                        <!-- ngIf: ShowAddToCart -->
+                        <!-- ngIf: ShowAddToCart -->
+                        <ul id="ulPrntAddCart" class="dropdown-menu pull-right" role="menu" aria-labelledby="btnPrntAddCart">
+                            <li role="presentation" ng-show="DownloadMobileCourseParams[0].isSingleNodeActivity &amp;&amp; DownloadMobileCourseParams[0].isDownloadableActivity &amp;&amp; (DownloadMobileCourseParams[0].actRegStatus==0 || DownloadMobileCourseParams[0].actRegStatus==10)" class="ng-hide">
+                                <a role="menuitem" aria-label="Download" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="DownLoadActivity()">Download</a>
+                            </li>
+                            <li role="presentation" ng-show="ShowRegisterButtonInOptions &amp;&amp; selectedActId == topMostRootActivityId" ng-class="{false:&#39;hidden-print&#39;}[ShowRegisterButtonInOptions &amp;&amp; selectedActId == topMostRootActivityId]" class="ng-hide hidden-print" style=""><a role="menuitem" aria-label="Register" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="registerRootActivity()">Register</a></li>
+                            <li role="presentation" ng-show="IsCancelable &amp;&amp; strViewMode == 0" ng-class="{false:&#39;hidden-print&#39;}[IsCancelable &amp;&amp; strViewMode == 0]" class="ng-hide hidden-print"><a role="menuitem" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="CancelActivity(selectedActId)" title="Cancel registration">Cancel registration</a></li>
+                            <li role="presentation" ng-show="ShowManageRoster &amp;&amp; strViewMode == 1" ng-class="{false:&#39;hidden-print&#39;}[ShowManageRoster &amp;&amp; strViewMode == 1]" class="ng-hide hidden-print"><a role="menuitem" href="javascript:OnClick_ManageRoster(rootActivityId,actTypeId,offeredByTypeFk);" title="Manage roster">Manage roster</a></li>
+                            <li role="presentation"><a role="menuitem" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="LaunchFavourite(rootActivityId)" title="Add to Favorites">Add to Favorites</a></li>
+
+                            <li role="presentation" ng-show="actEval &amp;&amp; bEval" ng-class="{false:&#39;hidden-print&#39;}[actEval &amp;&amp; bEval]" class="ng-hide hidden-print"><a role="menuitem" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="ViewEvaluation(rootActivityId)" title="Evaluations">Evaluations</a></li>
+                            <li role="presentation" ng-show="bDiploma &amp;&amp; isDiplomaAssociated" ng-class="{false:&#39;hidden-print&#39;}[bDiploma &amp;&amp; isDiplomaAssociated]" class="" style=""><a role="menuitem" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="LaunchDiplomaReport(rootAttemptId,selectedActId,STRING_USERMODE)" title="Diploma">Diploma</a></li>
+                            <li role="presentation"><a role="menuitem" href="javascript:_UTL_WindowPrint()" title="Print">Print</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="btn-group clsLeftPadding15 ng-hide hidden-print" ng-show="IsManagerImpLearner" ng-class="{false:&#39;hidden-print&#39;}[IsManagerImpLearner]">
+                        <button class="btn btn-primary" type="button" role="presentation" tabindex="-1">
+                            Options
+                        </button>
+                        <button class="dropdown-toggle btn btn-primary" aria-expanded="false" type="button" data-toggle="dropdown" aria-haspopup="true" aria-controls="ulPrntOptMgeImp" id="btnPrntOptMgeImp">
+                            <span class="caret"></span>
+                            <span class="sr-only">Options</span>
+                        </button>
+                        <ul class="dropdown-menu pull-right" role="menu" id="ulPrntOptMgeImp" aria-labelledby="btnPrntOptMgeImp">
+                            <li role="presentation" ng-show="ShowRegisterButtonInOptions &amp;&amp; selectedActId == topMostRootActivityId" ng-class="{false:&#39;hidden-print&#39;}[ShowRegisterButtonInOptions &amp;&amp; selectedActId == topMostRootActivityId]" class="ng-hide hidden-print" style=""><a role="menuitem" aria-label="Register" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="registerRootActivity()">Register</a></li>
+                            <li role="presentation" ng-show="IsCancelable &amp;&amp; strViewMode == 0" ng-class="{false:&#39;hidden-print&#39;}[IsCancelable &amp;&amp; strViewMode == 0]" class="ng-hide hidden-print"><a role="menuitem" aria-label="Cancel registration" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="CancelActivity(selectedActId)">Cancel registration</a></li>
+                            <li role="presentation" ng-show="ShowManageRoster &amp;&amp; strViewMode == 1" ng-class="{false:&#39;hidden-print&#39;}[ShowManageRoster &amp;&amp; strViewMode == 1]" class="ng-hide hidden-print"><a role="menuitem" aria-label="Manage roster" href="javascript:OnClick_ManageRoster(rootActivityId,actTypeId,offeredByTypeFk);">Manage roster</a></li>
+                            <li role="presentation"><a role="menuitem" aria-label="Add to Favorites" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="LaunchFavourite(rootActivityId)">Add to Favorites</a></li>
+                            <li role="presentation" ng-show="bDiploma &amp;&amp; isDiplomaAssociated" ng-class="{false:&#39;hidden-print&#39;}[bDiploma &amp;&amp; isDiplomaAssociated]" class="" style=""><a role="menuitem" aria-label="Diploma" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="LaunchDiplomaReport(rootAttemptId,selectedActId,STRING_USERMODE)">Diploma</a></li>
+                            <li role="presentation"><a role="menuitem" aria-label="Print" href="javascript:_UTL_WindowPrint()"> Print</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="pull-left viewLess" id="descId" ng-class="{&#39;viewMore&#39;:toggleLimit,&#39;viewLess&#39;:!toggleLimit}">
+                <p title="Course Agenda:
+·         How it started
+·         Demystify Big Data
+·         Big Data Use case
+
+Target audience:
+Freshers, beginners, anyone who needs and overview of Big Data.
+
+
+
+
+"><label id="descriptionSpan">Course Agenda:
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How it started
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Demystify Big Data
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Big Data Use case
+
+Target audience:
+Freshers, beginners, anyone who needs and overview of Big Data.
+
+
+
+
+</label></p>
+            </div>
+            <div style="width:80px">
+                <a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-hide="spanHeight &lt; rootHeight || toggleLimit" ng-click="toggleLimit = !toggleLimit" ng-class="{true:&#39;hidden-print&#39;}[spanHeight &lt; rootHeight || toggleLimit]" class="ng-hide hidden-print" style="">View More</a>
+                <a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-show="toggleLimit" ng-click="toggleLimit = !toggleLimit" ng-class="{false:&#39;hidden-print&#39;}[toggleLimit]" class="ng-hide hidden-print">View Less</a>
+            </div>
+          
+        </div>
+    </div>
+    <div ng-class="{&#39;content-container&#39;: !IsBundleActivity}" class="content-container">
+        <!-- ngIf: !IsBundleActivity --><div id="content-left" class="contentLeft sumtElmTree ng-scope sidePanel" ng-if="!IsBundleActivity" style="min-height: 316px;">
+            <div class="ng-isolate-scope">
+                <div class="clsShowCursor" tabindex="0" ng-click="treeselect(rootActivity)">
+                    <div class="row tree-header tree-header-title">
+                        <div class="col-lg-3">
+                            <img alt="Big Data" aria-hidden="true" ng-src="/learning/client/media/images/_common//900/tax/lemtd/elearning_rep.png" class="img-responsive pull-left sumt-activityimage img-small" err-src="900/tax/lemtd/elearning_rep.png" src="./Activity Details3_files/elearning_rep.png">
+                        </div>
+                        <div class="col-lg-9 actHeaderContainer">
+                            <span class="h4 clsActHeaderName ng-binding">Big Data</span>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/ng-template" id="NestedTemplate">
+                    <div ui-tree-handle ng-click="toggle(this);treeselect(node)" class="tree-node tree-node-content ng-scope angular-ui-tree-handle" ng-class="{'tree-node-active' : selectedActId == node.TrainingActivity.Id}">
+                        <i class="fa fa-caret-right fa-lg fa-fw" ng-show="collapsed && node.ChildUserTrainingItem !=null" ng-class="{false:'hidden-print'}[collapsed && node.ChildUserTrainingItem !=null]"></i>
+                        <i class="fa fa-caret-down fa-lg fa-fw" ng-show="!collapsed && node.ChildUserTrainingItem !=null" ng-class="{false:'hidden-print'}[!collapsed && node.ChildUserTrainingItem !=null]"></i>
+                        <div title="{{node.TrainingActivity.CurriculumStructureIndex}} {{node.TrainingActivity.Name}}" class="tree-node-title ng-binding clsEllipsis">{{node.TrainingActivity.CurriculumStructureIndex}} {{node.TrainingActivity.Name}}</div>
+                    </div>
+                    <ol class="ng-pristine ng-untouched ng-valid ng-scope angular-ui-tree-nodes" ui-tree-nodes="" ng-model="node.ChildUserTrainingItem" ng-class="{hidden: collapsed}">
+                        <li class="ng-scope angular-ui-tree-node" tabindex="0" id="{{node.TrainingActivity.Id}}_treeNode" ng-repeat="node in node.ChildUserTrainingItem" collapsed="true" ui-tree-node ng-include="'NestedTemplate'" ng-keypress='treeselectOnkeypress(node,$event)'>
+                        </li>
+                    </ol>
+                </script>
+                <div class="ng-scope angular-ui-tree" ui-tree="" data-drag-enabled="false" id="tree-root">
+                    <ol class="ng-pristine ng-untouched ng-valid ng-scope angular-ui-tree-nodes" ui-tree-nodes="" ng-model="childActivitiesList">
+                        <!-- ngRepeat: node in childActivitiesList -->
+                    </ol>
+                </div>
+            </div>
+        </div><!-- end ngIf: !IsBundleActivity -->
+
+        
+
+        <div id="contentPanel" ng-class="{&#39;contentRight&#39;: !IsBundleActivity}" class="contentRight sidePanel" style="height: 316px;">
+            <div ng-show="CompletionRule!=0" class="text-center alert alert-info ng-hide hidden-print" ng-class="{false:&#39;hidden-print&#39;}[CompletionRule!=0]" style=""><span class="h4 ng-binding"><i class="fa fa-exclamation-circle fa-fw"></i>You need to complete 0 of the 0 activities below to complete this program.</span></div>
+            <div class="pane-content">
+                <div class="ng-scope">
+                    <ul class="nav nav-tabs" role="tablist" ng-class="navClass">
+                        <!-- ngIf: !IsBundleActivity --><li class="ng-scope" id="actTab" ng-if="!IsBundleActivity" role="presentation">
+                            <a tabindex="0" class="ng-binding" role="tab" data-toggle="tab" ng-click="onActivityTabChange($event, 1, 1,childActList)" ng-keypress="onActivityTabChange($event, 1, 1,childActList)" data-index="1" id="actTabLink">Activities</a>
+                        </li><!-- end ngIf: !IsBundleActivity -->
+                        <!-- ngIf: IsBundleActivity -->
+                        <li class="ng-scope active" id="detTab" role="presentation">
+                            <a tabindex="0" class="ng-binding" role="tab" data-toggle="tab" ng-click="onActivityTabChange($event,act, 2,childActList)" ng-keypress="onActivityTabChange($event,act, 2,childActList)" data-index="2" id="detTabLink">Details</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="rightPanelFirstRow" id="right_container">
+                    <div ng-show="tabs.activeTab == 1" ng-class="{false:&#39;hidden-print&#39;}[tabs.activeTab == 1]" role="tabpanel" aria-labelledby="actTab" class="ng-hide hidden-print">
+                        <div id="noChldAct" ng-show="childActList.length == 0" class="text-center clsPadding15" ng-class="{false:&#39;hidden-print&#39;}[childActList.length == 0]" tabindex="-1" style="">
+                            There are no child activities available for this item.
+                        </div>
+                        <ul id="trackTreeViewstage" class="listViewItem">
+                            <!-- ngRepeat: act in childActList -->
+                        </ul>
+                    </div>
+                    <div ng-show="tabs.activeTab == 2" ng-class="{false:&#39;hidden-print&#39;}[tabs.activeTab == 2]" role="tabpanel" aria-labelledby="detTab" class="" style="">
+                        <!--Overlay div-->
+                        <div class="OverlayLoading OverlayLoadingBegin ng-hide" id="overlayDiv" ng-show="IsAPICallInProgress" align="center" ng-class="{&#39;hidden-print&#39;:IsAPICallInProgress}" style="">
+                            <div class="OverlayLoadingContainer"></div>
+                        </div>
+                        <!--Overlay div-->
+                        <div class="secondaryLinks clsPadding15">
+                            <div class="clsRightPadding15 ng-hide hidden-print" ng-show="showAlternativeActivitiesForRoot &amp;&amp; bInformation" ng-class="{false:&#39;hidden-print&#39;}[showAlternativeActivitiesForRoot &amp;&amp; bInformation]" style="">
+                                <a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="showAlternativeActivities(selectedUserTrainingItem)">
+                                    Alternative activities
+                                </a>
+                            </div>
+                            <div class="clsRightPadding15 hidden-print ng-hide" ng-show="OffSource==1" ng-class="{false:&#39;hidden-print&#39;}[OffSource==1]">
+                                <a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="showActivityDetails(selectedUserTrainingItem)">
+                                    Activity Details
+                                </a>
+                            </div>
+                            <div><a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-show="IsCollaborationCenterEnabled &amp;&amp; bCCIcon" ng-click="RedirectToCollaborationCentre(ExchangePk)" ng-class="{false:&#39;hidden-print&#39;}[IsCollaborationCenterEnabled &amp;&amp; bCCIcon]" class="ng-hide hidden-print" style="">Go to Collaboration Center</a></div>
+                            <div class="clsEntireRow ng-hide" ng-show="MaxAttempts &amp;&amp; IsChild==1 &amp;&amp; noRegRequired!=1 &amp;&amp; AttemptsRemaining&gt;=0">
+                                <label>Attempts Remaining :</label>
+                                <span ng-bind="AttemptsRemaining" class="ng-binding">0</span>
+                            </div>
+                            
+                            <div>
+                                <span class="text-danger clsRightPadding15 hidden-print ng-hide" ng-show="!IsTMSession &amp;&amp; isOnlySourceRegistered  &amp;&amp; strViewMode == 0" ng-class="{false:&#39;hidden-print&#39;}[!IsTMSession &amp;&amp; isOnlySourceRegistered  &amp;&amp; strViewMode == 0]">
+                                    <i class="fa fa-exclamation-circle fa-fw"></i>
+                                    No registered offerings.  -
+                                    <a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" class="clsPadding15" tabindex="0" ng-click="LaunchNewRegisterLink(selectedActId,selectedActName)">Click here to register</a>
+                                    
+                                </span>
+                            </div>
+                            <div>
+                                <span class="text-danger clsRightPadding15" ng-show="isRequired" ng-class="{false:&#39;hidden-print&#39;}[isRequired]" style="">
+                                    <i class="fa fa-exclamation-circle fa-fw"></i>
+                                    Required by Parent
+                                </span>
+                            </div>
+                        </div>
+                        <div class="Table">
+                            <div class="Row hidden-print ng-hide" ng-show="UserNotes != null||InstructorNotes != null" ng-class="{false:&#39;hidden-print&#39;}[UserNotes != null||InstructorNotes != null]">
+
+                                <div>
+                                    <span class="h3">Notes</span>
+
+                                    <p>Below are the details about this activity including activity user notes and instructor notes.</p>
+                                </div>
+                            </div>
+                            <div class="Row hidden-print ng-hide" ng-show="UserNotes != null" ng-class="{false:&#39;hidden-print&#39;}[UserNotes != null]">
+                                <div class="clsEntireRow">
+                                    <label>User notes:</label>
+                                    <span id="spnUserNotes"></span>
+                                </div>
+                            </div>
+                            <div class="Row hidden-print ng-hide" ng-show="InstructorNotes != null &amp;&amp; strRoleViewMode==1" ng-class="{false:&#39;hidden-print&#39;}[InstructorNotes != null &amp;&amp; strRoleViewMode==1]">
+                                <div class="clsEntireRow">
+                                    <label>Instructor notes:</label>
+                                    <span id="spnInstructorNotes"></span>
+                                </div>
+                            </div>
+                            <div class="Row ng-hide hidden-print" ng-show="StartDate != &#39;&#39; || EndDate != &#39;&#39; || RegistrationDeadLineDate != &#39;&#39; || RegistrationCancellationDate != &#39;&#39; || Price != null" ng-class="{false:&#39;hidden-print&#39;}[StartDate != &#39;&#39; || EndDate != &#39;&#39; || RegistrationDeadLineDate != &#39;&#39; || RegistrationCancellationDate != &#39;&#39; || (Price != null &amp;&amp; !IsExtendedEnterpriseEnabled)]" style="">
+                                <div class="clsEntireRow ng-hide hidden-print" ng-show="StartDate != &#39;&#39; || EndDate != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[StartDate != &#39;&#39; || EndDate != &#39;&#39;]" style="">
+                                    <!-- ngIf: !IsExtendedEnterpriseEnabled --><span class="h3 ng-scope" ng-if="!IsExtendedEnterpriseEnabled"> Schedule and Pricing</span><!-- end ngIf: !IsExtendedEnterpriseEnabled -->
+                                    <!-- ngIf: IsExtendedEnterpriseEnabled -->
+
+                                    <!-- ngIf: !IsExtendedEnterpriseEnabled --><p ng-if="!IsExtendedEnterpriseEnabled" class="ng-scope">Below are the details about this activity including schedule and pricing information.</p><!-- end ngIf: !IsExtendedEnterpriseEnabled -->
+                                    <!-- ngIf: IsExtendedEnterpriseEnabled -->
+                                </div>
+                            </div>
+                            <div class="Row">
+                                <div class="RightCell pull-left ng-hide hidden-print" ng-show="StartDate != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[StartDate != &#39;&#39;]" style="">
+                                    <label>Start date:</label>
+                                    <span class="ng-binding"></span>
+                                </div>
+                                <div class="LeftCell pull-left ng-hide hidden-print" ng-show="EndDate != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[EndDate != &#39;&#39;]" style="">
+                                    <label>End date:</label>
+                                    <span class="ng-binding"></span>
+                                </div>
+                            </div>
+                            <div class="Row ng-hide hidden-print" ng-show="RegistrationDeadLineDate != &#39;&#39; || RegistrationCancellationDate != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[RegistrationDeadLineDate != &#39;&#39; || RegistrationCancellationDate != &#39;&#39;]">
+                                <div class="RightCell pull-left ng-hide hidden-print" ng-show="RegistrationDeadLineDate != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[RegistrationDeadLineDate != &#39;&#39;]" style="">
+                                    <label>Registration deadline:</label>
+                                    <span class="ng-binding"></span>
+                                </div>
+                                <div class="LeftCell pull-left ng-hide hidden-print" ng-show="RegistrationCancellationDate != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[RegistrationCancellationDate != &#39;&#39;]" style="">
+                                    <label>Cancellation deadline:</label>
+                                    <span class="ng-binding"></span>
+                                </div>
+                            </div>
+                            <div class="Row hidden-print ng-hide" ng-show="Price != null &amp;&amp; !IsExtendedEnterpriseEnabled" ng-class="{false:&#39;hidden-print&#39;}[Price != null]">
+                                <div class="RightCell pull-left">
+                                    <label>Estimated cost:</label>
+                                    <span class="ng-binding"> USD</span>
+                                </div>
+                            </div>
+                            <div class="Row">
+                                <div class="clsEntireRow">
+                                    <span class="h3">Additional Information</span>
+
+                                    <p>Below are the additional details about this activity such as facility, location and so on.</p>
+                                </div>
+                            </div>
+                            <div class="Row">
+                                <div class="RightCell pull-left">
+                                    <label> Activity status :</label>
+                                    <span ng-show="IsActive" ng-class="{false:&#39;hidden-print&#39;}[IsActive]" class="" style="">
+                                        Active
+                                    </span>
+
+                                    <span ng-hide="IsActive" ng-class="{true:&#39;hidden-print&#39;}[IsActive]" class="ng-hide hidden-print" style="">
+                                        Inactive
+                                    </span>
+                                </div>
+                                <div class="LeftCell pull-left hidden-print ng-hide" ng-hide="InstructorList.length==0" ng-class="{true:&#39;hidden-print&#39;}[InstructorList.length==0]">
+                                    <label> Instructors :</label>
+                                    <!-- ngRepeat: act in InstructorList -->
+                                </div>
+                            </div>
+                            <div class="Row hidden-print ng-hide" ng-show="FacilityList.length!=0" ng-class="{false:&#39;hidden-print&#39;}[FacilityList.length!=0]">
+                                <div class="clsEntireRow">
+                                    <label> Locations :</label>
+                                    <!-- ngRepeat: act in FacilityList -->
+                                </div>
+                            </div>
+                            <div class="Row" ng-show="ContentTypeName != &#39;&#39; || Duration != null" ng-class="{false:&#39;hidden-print&#39;}[ContentTypeName != &#39;&#39; || Duration != null]">
+                                <div class="RightCell pull-left" ng-show="ContentTypeName != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[ContentTypeName != &#39;&#39;]">
+                                    <label> Content :</label>
+                                    <span class="ng-binding">
+                                        Partner Curriculum - Microsoft
+                                    </span>
+                                </div>
+                                <div class="LeftCell pull-left hidden-print ng-hide" ng-show="Duration != null" ng-class="{false:&#39;hidden-print&#39;}[Duration != null]">
+                                    <label> Online Content Access Duration :</label>
+                                    <span class="ng-binding">
+                                          days from 
+                                        <span ng-show="TriggerEvent == 1" ng-class="{false:&#39;hidden-print&#39;}[TriggerEvent == 1]" class="" style="">Registration date </span>
+                                        <span ng-show="TriggerEvent != 1" ng-class="{false:&#39;hidden-print&#39;}[TriggerEvent != 1]" class="ng-hide hidden-print" style="">Launch date </span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="Row" ng-show="DeliveryMethodName != &#39;&#39; || MediaTypeName !=&#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[DeliveryMethodName != &#39;&#39; || MediaTypeName !=&#39;&#39;]">
+                                <div class="RightCell pull-left" ng-show="DeliveryMethodName != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[DeliveryMethodName != &#39;&#39;]">
+                                    <label> Delivery method :</label>
+                                    <span class="ng-binding">
+                                        Web-based Learning
+                                    </span>
+                                </div>
+                                <div class="LeftCell pull-left" ng-show="MediaTypeName != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[MediaTypeName != &#39;&#39;]">
+                                    <label> Media :</label>
+                                    <span class="ng-binding">
+                                        Qualified Program
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="Row" ng-show="RegionName != &#39;&#39; || Language != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[RegionName != &#39;&#39; || Language != &#39;&#39;]">
+                                <div class="RightCell pull-left ng-hide hidden-print" ng-show="RegionName != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[RegionName != &#39;&#39;]" style="">
+                                    <label> Region :</label>
+                                    <span class="ng-binding">
+                                        
+                                    </span>
+                                </div>
+                                <div class="LeftCell pull-left" ng-show="Language != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[Language != &#39;&#39;]">
+                                    <label> Language :</label>
+                                    <span class="ng-binding">
+                                        English (United States)
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- ngRepeat: data in UserMetaDataLeft -->
+                            <div class="Row" ng-show="(Code!=&#39;&#39; &amp;&amp; bActivityCode )||URL!=&#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[(Code!=&#39;&#39; &amp;&amp; bActivityCode )||URL!=&#39;&#39;]">
+                                <div class="RightCell pull-left" ng-show="Code!=&#39;&#39; &amp;&amp; bActivityCode" style="">
+                                    <label> Code :</label>
+                                    <span class="ng-binding">
+                                        IN-Tech-BIDT
+                                    </span>
+                                </div>
+
+                                <div class="LeftCell pull-left ng-hide hidden-print" ng-show="URL!=&#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[URL!=&#39;&#39;]" style="">
+                                    <label> URL :</label>
+                                    <!-- ngIf: URL -->
+                                </div>
+                            </div>
+
+                            <div class="Row" ng-show="TrainingOrganization!=&#39;&#39; || Contact!=&#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[TrainingOrganization!=&#39;&#39; || Contact!=&#39;&#39;]">
+                                <div class="RightCell pull-left" ng-show="TrainingOrganization!=&#39;&#39;">
+                                    <label> Training organization :</label>
+                                    <span class="ng-binding">
+                                        Global
+                                    </span>
+                                </div>
+                                <div class="LeftCell pull-left" ng-show="Contact!=&#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[Contact!=&#39;&#39;]">
+                                    <label> Contact :</label>
+                                    <span class="ng-binding">
+                                        inlndtsos.in@capgemini.com
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="Row ng-hide hidden-print" ng-show="FulFillmentActivityName.length !=0" ng-class="{false:&#39;hidden-print&#39;}[FulFillmentActivityName.length !=0]">
+                                <div class="RightCell pull-left">
+                                    <label> This activity can be completed by taking the following alternatives  :</label>
+                                    <!-- ngRepeat: act in FulFillmentActivityName -->
+                                </div>
+                            </div>
+
+                            <div class="Row ng-hide hidden-print" ng-show="FulFilledActivityName.length !=0" ng-class="{false:&#39;hidden-print&#39;}[FulFilledActivityName.length !=0]">
+                                <div class="RightCell pull-left">
+
+                                    <label> This activity fulfills the following activities  :</label>
+                                    <!-- ngRepeat: act in FulFilledActivityName -->
+                                </div>
+                            </div>
+
+                            <div class="Row" ng-show="CategoryList.length != 0" ng-class="{false:&#39;hidden-print&#39;}[CategoryList.length != 0]" style="">
+
+                                <div class="clsEntireRow">
+                                    <span class="h3">Library Details</span>
+                                    <p>This activity is organized into the libraries below.</p>
+                                </div>
+                            </div>
+
+                            <div class="Row" ng-show="CategoryList.length != 0" ng-class="{false:&#39;hidden-print&#39;}[CategoryList.length != 0]">
+                                <div class="RightCell pull-left">
+
+                                    <label>Libraries :</label>
+                                    <span id="spnCategory">
+                                        <!-- ngRepeat: list in CategoryList --><span ng-repeat="list in CategoryList" class="ng-scope" style=""><!-- ngRepeat: topicItem in list --><span ng-repeat="topicItem in list" class="ng-scope"><a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="NavigateToLibrary(topicItem.TopicId)" class="ng-binding">Capgemini</a> <span ng-hide="$last" class=""> &gt; </span></span><!-- end ngRepeat: topicItem in list --><span ng-repeat="topicItem in list" class="ng-scope"><a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="NavigateToLibrary(topicItem.TopicId)" class="ng-binding">6.  Technology Partners</a> <span ng-hide="$last" class=""> &gt; </span></span><!-- end ngRepeat: topicItem in list --><span ng-repeat="topicItem in list" class="ng-scope"><a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="NavigateToLibrary(topicItem.TopicId)" class="ng-binding">Microsoft</a> <span ng-hide="$last" class="ng-hide"> &gt; </span></span><!-- end ngRepeat: topicItem in list --><br></span><!-- end ngRepeat: list in CategoryList --><span ng-repeat="list in CategoryList" class="ng-scope"><!-- ngRepeat: topicItem in list --><span ng-repeat="topicItem in list" class="ng-scope"><a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="NavigateToLibrary(topicItem.TopicId)" class="ng-binding">Capgemini</a> <span ng-hide="$last" class=""> &gt; </span></span><!-- end ngRepeat: topicItem in list --><span ng-repeat="topicItem in list" class="ng-scope"><a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="NavigateToLibrary(topicItem.TopicId)" class="ng-binding">8.  Regional Content</a> <span ng-hide="$last" class=""> &gt; </span></span><!-- end ngRepeat: topicItem in list --><span ng-repeat="topicItem in list" class="ng-scope"><a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="NavigateToLibrary(topicItem.TopicId)" class="ng-binding">Regional Catalog (G-N)</a> <span ng-hide="$last" class=""> &gt; </span></span><!-- end ngRepeat: topicItem in list --><span ng-repeat="topicItem in list" class="ng-scope"><a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="NavigateToLibrary(topicItem.TopicId)" class="ng-binding">India</a> <span ng-hide="$last" class="ng-hide"> &gt; </span></span><!-- end ngRepeat: topicItem in list --><br></span><!-- end ngRepeat: list in CategoryList -->
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="Row ng-hide hidden-print" ng-show="ActivityAssignment.length != 0" ng-class="{false:&#39;hidden-print&#39;}[ActivityAssignment.length != 0]">
+
+                                <div class="clsEntireRow">
+                                    <span class"h3"="">Requirement Details</span>
+                                    <p>Below are the reasons you require this activity.</p>
+                                </div>
+                            </div>
+
+                            <div class="Row ng-hide hidden-print" ng-show="ActivityAssignment.length != 0" ng-class="{false:&#39;hidden-print&#39;}[ActivityAssignment.length != 0]">
+                                <div class="RightCell pull-left">
+                                    <label>Reason :</label>
+                                </div>
+                                <div class="LeftCell pull-left">
+                                    <label>Learner Assignment Notes :</label>
+                                </div>
+                            </div>
+
+                            <!-- ngRepeat: act in ActivityAssignment -->
+
+                            <div class="Row hidden-print ng-hide" ng-show="IsCertification==1" ng-class="{false:&#39;hidden-print&#39;}[IsCertification==1]">
+
+                                <div class="clsEntireRow">
+                                    <span class="h3">Certification Details</span>
+                                    <p>Below are the certifications you will acquire upon successful completion of this activity.</p>
+                                </div>
+                            </div>
+
+                            <div class="Row hidden-print ng-hide" ng-show="IsCertification==1" ng-class="{false:&#39;hidden-print&#39;}[IsCertification==1]">
+                                <div class="RightCell pull-left">
+                                    <strong class="ng-binding">Big Data: </strong> This is a Certification
+                                </div>
+                            </div>
+
+                            <div class="Row hidden-print ng-hide" ng-show="SkillList.length != 0" ng-class="{false:&#39;hidden-print&#39;}[SkillList.length != 0]">
+
+                                <div class="clsEntireRow">
+                                    <span class="h3">Skill Details</span>
+                                    <p>Below are the skills you will acquire upon successful completion of this activity.</p>
+                                </div>
+                            </div>
+
+                            <div class="Row hidden-print ng-hide" ng-show="SkillList.length != 0" ng-class="{false:&#39;hidden-print&#39;}[SkillList.length != 0]">
+                                <div class="RightCell pull-left">
+                                    <label>Skills:</label>
+                                    <!-- ngRepeat: act in SkillList -->
+                                </div>
+                            </div>
+
+                            <div class="Row" ng-show="GradingAndCompletionProperties.EstimatedCreditHours != null || CERG[0].CERGName != &#39;&#39; || NasbaCreditHours != &#39;&#39; || PMICreditHours != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[GradingAndCompletionProperties.EstimatedCreditHours != null || CERG[0].CERGName != &#39;&#39; || NasbaCreditHours != &#39;&#39; || PMICreditHours != &#39;&#39;]">
+
+                                <div class="clsEntireRow">
+                                    <span class="h3">Training Credits</span>
+                                </div>
+                            </div>
+
+                            <div class="Row" ng-show="GradingAndCompletionProperties.EstimatedCreditHours != null" ng-class="{false:&#39;hidden-print&#39;}[GradingAndCompletionProperties.EstimatedCreditHours != null]">
+                                <div class="RightCell pull-left">
+                                    <label>Credit hours:</label>
+                                    <span class="ng-binding">0.34</span>
+                                </div>
+                            </div>
+
+                            <!-- ngRepeat: act in CERG --><div class="Row ng-scope ng-hide hidden-print" ng-show="CERG[0].CERGName != &#39;&#39;" ng-repeat="act in CERG" ng-class="{false:&#39;hidden-print&#39;}[CERG[0].CERGName != &#39;&#39;]" style="">
+                                <div class="RightCell pull-left">
+                                    <label class="ng-binding"> :</label>
+                                    <span class="ng-binding">
+                                        
+                                    </span>
+                                </div>
+                            </div><!-- end ngRepeat: act in CERG -->
+
+                            <div class="Row ng-hide hidden-print" ng-show="NasbaCreditHours != &#39;&#39; || PMICreditHours != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[NasbaCreditHours != &#39;&#39; || PMICreditHours != &#39;&#39;]">
+                                <div class="RightCell pull-left ng-hide hidden-print" ng-show="NasbaCreditHours != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[NasbaCreditHours != &#39;&#39;]" style="">
+                                    <label>CPE (NASBA) :</label>
+                                    <span class="ng-binding">
+                                        
+                                    </span>
+                                </div>
+                                <div class="LeftCell pull-left ng-hide hidden-print" ng-show="PMICreditHours != &#39;&#39;" ng-class="{false:&#39;hidden-print&#39;}[PMICreditHours != &#39;&#39;]" style="">
+                                    <label>PDU (PMI) :</label>
+                                    <span class="ng-binding">
+                                        
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="Row hidden-print ng-hide" ng-show="PreReqList.length != 0" ng-class="{false:&#39;hidden-print&#39;}[PreReqList.length != 0]">
+
+                                <div class="clsEntireRow">
+                                    <span class="h3">Prerequisites</span>
+                                    <p>Below are the activities you require to complete this activity.</p>
+                                </div>
+                            </div>
+
+                            <div class="Row hidden-print ng-hide" ng-show="PreReqList.length != 0" ng-class="{false:&#39;hidden-print&#39;}[PreReqList.length != 0]">
+                                <div class="RightCell pull-left">
+                                    <label>Requires completion :</label>
+                                    <!-- ngRepeat: act in PreReqList -->
+                                </div>
+                                <div class="LeftCell pull-left">
+                                    <label>Requires registration :</label>
+                                    <!-- ngRepeat: act in PreReqList -->
+                                </div>
+                            </div>
+
+                            <div class="Row ng-hide hidden-print" ng-show="IsFrenchUser &amp;&amp; activityTR != null" ng-class="{false:&#39;hidden-print&#39;}[IsFrenchUser &amp;&amp; activityTR != null]" style="">
+
+                                <div class="clsEntireRow">
+                                    <span class="h3">TotalRegulation Settings</span>
+                                    <p>Following are the TotalRegulation settings for this Activity.</p>
+                                </div>
+                            </div>
+
+                            <div class="Row ng-hide hidden-print" ng-show="IsFrenchUser &amp;&amp; activityTR != null" ng-class="{false:&#39;hidden-print&#39;}[IsFrenchUser &amp;&amp; activityTR != null]">
+                                <div class="RightCell pull-left">
+                                    <label>Prerequisite :</label>
+                                    <span class="ng-binding">
+                                        
+                                    </span>
+                                </div>
+                                <div class="LeftCell pull-left">
+                                    <label>Public Concern :</label>
+                                    <span class="ng-binding">
+                                        
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="Row ng-hide hidden-print" ng-show="IsFrenchUser &amp;&amp; activityTR != null" ng-class="{false:&#39;hidden-print&#39;}[IsFrenchUser &amp;&amp; activityTR != null]">
+                                <div class="RightCell pull-left">
+                                    <label>Objectives :</label>
+                                    <span class="ng-binding">
+                                        
+                                    </span>
+                                </div>
+                                <div class="LeftCell pull-left">
+                                    <label>Methods :</label>
+                                    <span class="ng-binding">
+                                        
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="Row hidden-print ng-hide" ng-show="CommunityId != 0 &amp;&amp; EnabledFeatures&gt;=1 &amp;&amp; actRegStatus==0  &amp;&amp; IsSharePointEnabled" ng-class="{false:&#39;hidden-print&#39;}[CommunityId != 0 &amp;&amp; EnabledFeatures&gt;=1 &amp;&amp; actRegStatus==0  &amp;&amp; IsSharePointEnabled]">
+
+                                <div class="clsEntireRow">
+                                    <span class="h3">Additional Resources</span>
+                                    <div class="text-primary">
+                                        Presentation Skills and Collaboration Space
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="Row blueIcon hidden-print ng-hide" ng-show="CommunityId != 0 &amp;&amp; EnabledFeatures&gt;=1 &amp;&amp; actRegStatus==0 &amp;&amp; IsSharePointEnabled" ng-class="{false:&#39;hidden-print&#39;}[CommunityId != 0 &amp;&amp; EnabledFeatures&gt;=1 &amp;&amp; actRegStatus==0 &amp;&amp; IsSharePointEnabled]">
+                                <div class="RightCell pull-left">
+                                    <i class="fa fa-users fa-fw fa-lg hidden-print ng-hide" ng-show="(EnabledFeatures&gt;=1)" ng-class="{false:&#39;hidden-print&#39;}[(EnabledFeatures&gt;=1)]"></i>
+                                    <a aria-label="View Community" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="ViewCommunity(CommunityId, CommunityType, STRING_USERMODE,strCallerURL)" ng-show="(EnabledFeatures&gt;=1)" ng-class="{false:&#39;hidden-print&#39;}[(EnabledFeatures&gt;=1)]" class="ng-hide hidden-print">View Community</a> &nbsp;
+                                    <i class="fa fa-comments fa-fw fa-lg ng-hide hidden-print" ng-show="bDiscussionEnabled" ng-class="{false:&#39;hidden-print&#39;}[bDiscussionEnabled]" style=""></i>
+                                    <a aria-label="Discussions (0)" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="ViewCommunityFeature(CommunityId,CommunityType,CommunityDiscussion,STRING_USERMODE,strCallerURL)" ng-show="bDiscussionEnabled" ng-class="{false:&#39;hidden-print&#39;}[bDiscussionEnabled]" class="ng-binding ng-hide hidden-print" style="">Discussions (0)</a>&nbsp;
+                                    <i class="fa fa-file-text fa-fw fa-lg ng-hide hidden-print" ng-show="bDocumentEnabled" ng-class="{false:&#39;hidden-print&#39;}[bDocumentEnabled]" style=""></i>
+                                    <a aria-label="Documents (0)" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="ViewCommunityFeature(CommunityId,CommunityType,CommunityDocuments,STRING_USERMODE,strCallerURL)" ng-show="bDocumentEnabled" ng-class="{false:&#39;hidden-print&#39;}[bDocumentEnabled]" class="ng-binding ng-hide hidden-print">Documents (0)</a> &nbsp;
+                                    <i class="fa fa-comment fa-fw fa-lg ng-hide hidden-print" ng-show="bBlogEnabled" ng-class="{false:&#39;hidden-print&#39;}[bBlogEnabled]" style=""></i>
+                                    <a aria-label="Blog Posts (0)" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" ng-click="ViewCommunityFeature(CommunityId,CommunityType,CommunityBlogPosts,STRING_USERMODE,strCallerURL)" ng-show="bBlogEnabled" ng-class="{false:&#39;hidden-print&#39;}[bBlogEnabled]" class="ng-binding ng-hide hidden-print">Blog Posts (0)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div ng-show="tabs.activeTab == 3" ng-class="{false:&#39;hidden-print&#39;}[tabs.activeTab == 3]" role="tabpanel" aria-labelledby="actBundleTab" class="ng-hide hidden-print">
+                        
+                        <div ng-show="AssociatedActivityList == null || AssociatedActivityList.length == 0" class="text-center clsPadding15" ng-class="{false:&#39;hidden-print&#39;}[AssociatedActivityList == null || AssociatedActivityList.length == 0]">
+                            There are no associated activities available for this item.
+                        </div>
+                        <ul id="BundleActViewStage" class="list-unstyled">
+                            <!-- ngRepeat: assoAct in AssociatedActivityList -->
+                        </ul>
+                    </div>
+                </div>
+                <div ng-show="ShowDoneButton" class="floatRight ng-hide hidden-print" ng-class="{false:&#39;hidden-print&#39;}[ShowDoneButton]" style="">
+                    <span>
+                        <button ng-click="OnClick_CallBack()" class="btn btn-default sumt-btn-default" type="button">Done</button>
+                    </span>
+                </div>
+                <div ng-show="OffSrc==1 &amp;&amp; OffSourceId &gt; 0" style=" text-align:right;" ng-class="{false:&#39;hidden-print&#39;}[OffSrc==1 &amp;&amp; OffSourceId &gt; 0]" class="ng-hide hidden-print">
+                    <span>
+                        <button type="button" ng-click="OnClick_Back()" class="btn btn-default sumt-btn-default">Back</button>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <input type="hidden" id="_SUMTCSRFTOKEN" name="_SUMTCSRFTOKEN" value="$SumT75CNG+4355q6gTKp7rLsl0zFQMdUFzDqC4IWG+5qmbLaYXSOJHBNuEjQTjuQLjH6XEvgGs7YYLeXxqr16keSzBj7JyXQ==">
+            </div>
+        </div>
+    </div>
+
+    </div></div><div ng-multi-transclude-controller="" slideout="" key="ActivityInfoSlideout" show-left-side="false" class="ng-isolate-scope">
+  <div class="slideout-backdrop am-fade hideHeatShield" ng-class="{&#39;hideHeatShield&#39;: slideOutObject.closed == true || slideOutObject.closed == false &amp;&amp; slideOutObject.expand == false}"></div>
+  <div class="sumt-slideout right ng-hide" ng-class="getContainerClass()" role="dialog" ng-hide="slideOutObject.closed &amp;&amp; !slideOutObject.collapsed" tabindex="0" aria-labelledby="">
+    <!-- ngIf: showCollapse && !slideOutObject.collapsed -->
+    <!-- ngIf: showCollapse && slideOutObject.collapsed -->
+    <!-- ngIf: !showCollapse --><div class="closeTab ng-scope" ng-if="!showCollapse" ng-click="slideProvider.close(key)" ng-attr-aria-label="{{&#39;CLOSE_TXT&#39; | translate}}" aria-label="Close"><i class="fa fa-times"></i></div><!-- end ngIf: !showCollapse -->
+    <!-- ngIf: hasTemplate -->
+    <div ng-show="!hasTemplate &amp;&amp; showLeft" class="slideout-left-container ng-hide" aria-hidden="true">
+      <div class="slideout-inner-left">
+        <div ng-multi-transclude="headersection" aria-hidden="true"></div>
+        <div ng-multi-transclude="sidecontent" aria-hidden="true"></div>
+      </div>
+    </div>
+    <div ng-show="!hasTemplate &amp;&amp; slideOutObject.expand" class="slideout-expanded-container no-left-content ng-hide" ng-class="{&#39;no-left-content&#39;: !showLeft, &#39;arrow-padding&#39;: showLeft}">
+      <i class="fa fa-arrow-right ng-hide" ng-click="slideProvider.open(key)" ng-show="showLeft &amp;&amp; slideOutObject.expand" ng-attr-aria-label="{{&#39;COLLAPSE_TEXT&#39; | translate}}" aria-label="COLLAPSE_TEXT"></i>
+      <div ng-multi-transclude="expandcontent" aria-hidden="true"><div name="expandcontent" id="slideOutContentDiv" class="ng-scope">
+                                <iframe id="associatedActivityInfoFrame" class="set-iframe-dimentions" src="./Activity Details3_files/saved_resource(1).html"></iframe>
+                            </div></div>
+      <div ng-multi-transclude="footer" aria-hidden="true"></div>
+    </div>
+  </div>
+</div><div ng-multi-transclude-controller="" slideout="" key="RegistrationSlideOuts" show-left-side="false" class="ng-isolate-scope">
+  <div class="slideout-backdrop am-fade hideHeatShield" ng-class="{&#39;hideHeatShield&#39;: slideOutObject.closed == true || slideOutObject.closed == false &amp;&amp; slideOutObject.expand == false}"></div>
+  <div class="sumt-slideout right ng-hide" ng-class="getContainerClass()" role="dialog" ng-hide="slideOutObject.closed &amp;&amp; !slideOutObject.collapsed" tabindex="0" aria-labelledby="">
+    <!-- ngIf: showCollapse && !slideOutObject.collapsed -->
+    <!-- ngIf: showCollapse && slideOutObject.collapsed -->
+    <!-- ngIf: !showCollapse --><div class="closeTab ng-scope" ng-if="!showCollapse" ng-click="slideProvider.close(key)" ng-attr-aria-label="{{&#39;CLOSE_TXT&#39; | translate}}" aria-label="Close"><i class="fa fa-times"></i></div><!-- end ngIf: !showCollapse -->
+    <!-- ngIf: hasTemplate -->
+    <div ng-show="!hasTemplate &amp;&amp; showLeft" class="slideout-left-container ng-hide" aria-hidden="true">
+      <div class="slideout-inner-left">
+        <div ng-multi-transclude="headersection" aria-hidden="true"></div>
+        <div ng-multi-transclude="sidecontent" aria-hidden="true"></div>
+      </div>
+    </div>
+    <div ng-show="!hasTemplate &amp;&amp; slideOutObject.expand" class="slideout-expanded-container no-left-content ng-hide" ng-class="{&#39;no-left-content&#39;: !showLeft, &#39;arrow-padding&#39;: showLeft}">
+      <i class="fa fa-arrow-right ng-hide" ng-click="slideProvider.open(key)" ng-show="showLeft &amp;&amp; slideOutObject.expand" ng-attr-aria-label="{{&#39;COLLAPSE_TEXT&#39; | translate}}" aria-label="COLLAPSE_TEXT"></i>
+      <div ng-multi-transclude="expandcontent" aria-hidden="true"><div id="slideOutContentRegDiv" name="expandcontent" class="iframe-container elm-FullPageIframe ng-scope">
+            <iframe id="idRegistrationFrame" class="iframe-responsive set-iframe-dimentions" src="./Activity Details3_files/saved_resource(2).html">
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</iframe></div></div>
+      <div ng-multi-transclude="footer" aria-hidden="true"></div>
+    </div>
+  </div>
+</div><input id="textAngular-editableFix-010203040506070809" class="ta-hidden-input" unselectable="on" tabindex="-1"><div class="k-animation-container" style="width: 413px; height: 79px; margin-left: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; overflow: visible; display: block; position: absolute; top: 159px; z-index: 10002; left: 0px;"><div role="tooltip" class="k-widget k-tooltip k-tooltip-closable k-popup k-group k-reset k-state-border-up" data-role="popup" id="463595_tooltip_tt_active" style="display: block; width: 400px; transform: translateY(0px); position: absolute;"> <div class="k-tooltip-button"><a href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" class="k-icon k-i-close">close</a></div> <div class="k-tooltip-content"><b>Attempt History</b><br>&nbsp; Attended on 2/02/2018    (via Activity)  <a href="javascript:LMS_Learner_ShowProgressReport(&#39;38565297&#39;,&#39;0&#39;)"><img alt="Activity progress details" src="./Activity Details3_files/icon_progress_details.gif"></a> <a href="javascript:LMS_Learner_ShowDiplomaReport(&#39;38565297&#39;,&#39;463595&#39;,&#39;0&#39;)"><img alt="Diploma" src="./Activity Details3_files/icon_diploma.gif"></a><br><br><br></div><div class="k-callout k-callout-n" style="left: 190px;"></div></div></div><div class="k-overlay" style="display: block; z-index: 10002; opacity: 0.5;"></div><div class="k-widget k-window" data-role="draggable" style="padding-top: 33px; min-width: 90px; min-height: 50px; width: 820px; height: 509px; display: block; left: 265px; top: 33.5px; z-index: 10003;"><div class="k-window-titlebar k-header" style="margin-top: -33px;">&nbsp;<span class="k-window-title" id="kendoWindowContainer_wnd_title" style="right: 30px;">SumTotal</span><div class="k-window-actions"><a role="button" href="https://capgemini.sumtotal.host/learning/core/activitydetails/ViewActivityDetails?UserMode=0&amp;ActivityId=463595#" class="k-window-action k-link"><span role="presentation" class="k-icon k-i-close" title="Close">Close</span></a></div></div><div id="kendoWindowContainer" data-role="window" class="k-window-content k-content k-window-iframecontent" tabindex="0" role="dialog" aria-labelledby="kendoWindowContainer_wnd_title" style=""><iframe frameborder="0" title="SumTotal" class="k-content-frame" src="./Activity Details3_files/SYS_ModalDialog.html">This page requires frames in order to show content</iframe></div></div></body></html>
